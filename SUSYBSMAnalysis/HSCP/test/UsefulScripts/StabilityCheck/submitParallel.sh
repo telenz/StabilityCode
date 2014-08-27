@@ -1,6 +1,6 @@
 #!bash/bin
 
-folder=allRunsLanGausLastVersionChange
+folder=testCheckedInVersion
 mkdir ${folder}
 
 num=0
@@ -41,7 +41,7 @@ while read line
   path=/afs/cern.ch/user/t/telenz/work/CMSSW_5_3_14_patch2/src/SUSYBSMAnalysis/HSCP/test/UsefulScripts/StabilityCheck/${folder}/$folderName
   echo $path
   echo "bsub -q 1nd -J ${folderName} "sh $path/StabilityCheck.sh""
-#  bsub -q 1nd -J ${folderName} "sh $path/StabilityCheck.sh"
+  bsub -q 1nd -J ${folderName} "sh $path/StabilityCheck.sh"
 
   cd ../..
   
