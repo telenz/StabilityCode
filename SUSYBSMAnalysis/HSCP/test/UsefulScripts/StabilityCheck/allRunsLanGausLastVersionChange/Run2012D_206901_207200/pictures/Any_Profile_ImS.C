@@ -1,0 +1,76 @@
+{
+//=========Macro generated from canvas: c1/c1
+//=========  (Fri Aug 22 13:49:55 2014) by ROOT version5.32/00
+   TCanvas *c1 = new TCanvas("c1", "c1",0,0,600,600);
+   gStyle->SetOptFit(1);
+   gStyle->SetOptTitle(0);
+   c1->Range(0,0,1,1);
+   c1->SetFillColor(0);
+   c1->SetBorderMode(0);
+   c1->SetBorderSize(2);
+   c1->SetGridx();
+   c1->SetTickx(1);
+   c1->SetTicky(1);
+   c1->SetLeftMargin(0.07);
+   c1->SetRightMargin(0.03);
+   c1->SetTopMargin(0.06);
+   c1->SetBottomMargin(0.15);
+   c1->SetFrameFillStyle(0);
+   c1->SetFrameBorderMode(0);
+   
+   TProfile *AnydEdxMSProf = new TProfile("AnydEdxMSProf","",5,0,5,"");
+   AnydEdxMSProf->SetBinEntries(1,9848);
+   AnydEdxMSProf->SetBinEntries(2,17470);
+   AnydEdxMSProf->SetBinEntries(3,83787);
+   AnydEdxMSProf->SetBinEntries(4,95065);
+   AnydEdxMSProf->SetBinEntries(5,6640);
+   AnydEdxMSProf->SetBinContent(1,32439.13);
+   AnydEdxMSProf->SetBinContent(2,57744.76);
+   AnydEdxMSProf->SetBinContent(3,277481.1);
+   AnydEdxMSProf->SetBinContent(4,314328.1);
+   AnydEdxMSProf->SetBinContent(5,22060.57);
+   AnydEdxMSProf->SetBinError(1,327.4849);
+   AnydEdxMSProf->SetBinError(2,437.7006);
+   AnydEdxMSProf->SetBinError(3,960.4051);
+   AnydEdxMSProf->SetBinError(4,1021.379);
+   AnydEdxMSProf->SetBinError(5,271.2478);
+   AnydEdxMSProf->SetEntries(212810);
+   AnydEdxMSProf->SetStats(0);
+   AnydEdxMSProf->SetFillColor(1);
+   AnydEdxMSProf->SetLineStyle(0);
+   AnydEdxMSProf->SetMarkerStyle(20);
+   AnydEdxMSProf->SetMarkerSize(0.4);
+   AnydEdxMSProf->GetXaxis()->SetBinLabel(1,"206901");
+   AnydEdxMSProf->GetXaxis()->SetBinLabel(2,"206906");
+   AnydEdxMSProf->GetXaxis()->SetBinLabel(3,"206940");
+   AnydEdxMSProf->GetXaxis()->SetBinLabel(4,"207099");
+   AnydEdxMSProf->GetXaxis()->SetBinLabel(5,"207100");
+   AnydEdxMSProf->GetXaxis()->SetBit(TAxis::kLabelsVert);
+   AnydEdxMSProf->GetXaxis()->SetNdivisions(505);
+   AnydEdxMSProf->GetXaxis()->SetLabelFont(42);
+   AnydEdxMSProf->GetXaxis()->SetLabelOffset(0.007);
+   AnydEdxMSProf->GetXaxis()->SetTitleOffset(1.1);
+   AnydEdxMSProf->GetXaxis()->SetTitleFont(42);
+   AnydEdxMSProf->GetYaxis()->SetTitle("dE/dx estimator");
+   AnydEdxMSProf->GetYaxis()->SetLabelFont(42);
+   AnydEdxMSProf->GetYaxis()->SetLabelOffset(0.007);
+   AnydEdxMSProf->GetYaxis()->SetLabelSize(0.05);
+   AnydEdxMSProf->GetYaxis()->SetTitleOffset(0.9);
+   AnydEdxMSProf->GetYaxis()->SetTitleFont(42);
+   AnydEdxMSProf->GetZaxis()->SetLabelFont(42);
+   AnydEdxMSProf->GetZaxis()->SetLabelOffset(0.007);
+   AnydEdxMSProf->GetZaxis()->SetLabelSize(0.05);
+   AnydEdxMSProf->GetZaxis()->SetTitleFont(42);
+   AnydEdxMSProf->Draw("E1");
+   
+   TPaveText *pt = new TPaveText(0,2.361871e-310,2.361871e-310,2.9724e-316,"brNDC");
+   pt->SetFillColor(0);
+   pt->SetTextAlign(12);
+   pt->SetTextFont(43);
+   pt->SetTextSize(21);
+   TText *text = pt->AddText("O");
+   pt->Draw();
+   c1->Modified();
+   c1->cd();
+   c1->SetSelected(c1);
+}

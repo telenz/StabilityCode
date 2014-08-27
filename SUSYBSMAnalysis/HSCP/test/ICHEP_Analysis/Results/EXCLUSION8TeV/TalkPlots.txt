@@ -1,0 +1,63 @@
+\documentclass{article}
+\usepackage{rotating}
+\begin{document}
+
+\begin{tiny}
+
+\begin{sidewaystable}
+   \centering
+      \begin{tabular}{|l|cccccccc|}
+      \hline
+Sample & Mass(GeV) & Pt(GeV) & $I_{as}$ & TOF & Mass Cut (GeV) & N pred & N observed & Eff & Signif \\
+\hline
+      \end{tabular}
+\end{sidewaystable}
+
+\begin{sidewaystable}
+   \centering
+      \begin{tabular}{|l|cccccc|}
+      \hline
+Sample & Mass(GeV) & Pt(GeV) & $I_{as}$ & $#beta^{-1]$ & Mass Cut (GeV) & N pred & N observed & Eff \\
+\hline
+      \end{tabular}
+\end{sidewaystable}
+
+\begin{sidewaystable}
+   \centering
+      \begin{tabular}{|l|cccccc|}
+      \hline
+Sample & Mass(GeV) & Pt(GeV) & $I_{as}$ & $#beta^{-1]$ & Mass Cut (GeV) & N pred & N observed & Eff \\
+\hline
+      \end{tabular}
+\end{sidewaystable}
+
+\begin{sidewaystable}
+   \centering
+      \begin{tabular}{|l|cccccc|}
+      \hline
+Sample & Mass(GeV) & Pt(GeV) & $I_{as}$ & $#beta^{-1]$ & Mass Cut (GeV) & N pred & N observed & Eff \\
+\hline
+      \end{tabular}
+\end{sidewaystable}
+
+\begin{sidewaystable}
+   \centering
+      \begin{tabular}{|l|cccccc|}
+      \hline
+Sample & Mass(GeV) & Pt(GeV) & $I_{as}$ & $#beta^{-1]$ & Mass Cut (GeV) & N pred & N observed & Eff \\
+\hline
+      \end{tabular}
+\end{sidewaystable}
+
+\end{document}
+
+\hline
+               Model &  Eff     & PScale &  DeDxScale & PUScale & TotalUncertainty \\
+\hline
+               Model &  Eff    & PScale &  DeDxScale & PUScale & TOFScale & TotalUncertainty \\
+\hline
+               Model &  Eff    & PScale &  DeDxScale & PUScale & TOFScale & TotalUncertainty \\
+\hline
+               Model &  Eff     & PScale &  DeDxScale & PUScale & TotalUncertainty \\
+\hline
+               Model &  Eff     & PScale &  DeDxScale & PUScale & TotalUncertainty \\

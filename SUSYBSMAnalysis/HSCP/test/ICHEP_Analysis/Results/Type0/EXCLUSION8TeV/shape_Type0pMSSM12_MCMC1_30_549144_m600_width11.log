@@ -1,0 +1,41 @@
+>>> including systematics
+>>> using the Simple Likelihood Ratio test statistics (Q_LEP)
+>>> method used to compute upper limit is HybridNew
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Search for upper limit to the limit
+  r = 57.0839 +/- 0
+	CLs = 0.099537 +/- 0.0149356
+	CLs      = 0.099537 +/- 0.0149356
+	CLb      = 0.864 +/- 0.0306599
+	CLsplusb = 0.086 +/- 0.0125383
+
+  r = 114.168 +/- 0
+	CLs = 0.0231481 +/- 0.00729293
+	CLs      = 0.0231481 +/- 0.00729293
+	CLb      = 0.864 +/- 0.0306599
+	CLsplusb = 0.02 +/- 0.00626099
+
+Search for lower limit to the limit
+Now doing proper bracketing & bisection
+  r = 90.8206 +/- 57.0839
+	CLs = 0.0229358 +/- 0.00722293
+	CLs      = 0.0229358 +/- 0.00722293
+	CLb      = 0.872 +/- 0.0298819
+	CLsplusb = 0.02 +/- 0.00626099
+
+  r = 72.0715 +/- 45.4103
+	CLs = 0.0619048 +/- 0.0120651
+	CLs = 0.070519 +/- 0.00912043
+	CLs = 0.0668101 +/- 0.00724209
+	CLs = 0.0637606 +/- 0.00608858
+	CLs = 0.065369 +/- 0.00549783
+	CLs = 0.0653478 +/- 0.00499393
+	CLs      = 0.0653478 +/- 0.00499393
+	CLb      = 0.856954 +/- 0.0127422
+	CLsplusb = 0.056 +/- 0.00419778
+
+
+ -- Hybrid New -- 
+Limit: r < 76.8652 +/- 3.74981 @ 95% CL
+Done in 0.00 min (cpu), 0.05 min (real)

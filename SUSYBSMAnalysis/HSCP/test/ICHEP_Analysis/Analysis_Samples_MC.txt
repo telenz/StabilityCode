@@ -1,0 +1,1 @@
+"CMSSW_5_3", 1, "MC_8TeV_DYToMuMu"                   , "MC_8TeV_DYToMuMu"                      , "MC: DYToMuMu"                                             , "S10"    ,     0, +1.3000000000E+03, 0, 0.000, 0.000, 0.000

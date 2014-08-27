@@ -1,0 +1,13 @@
+@(#)CERN job starter $Date: 2010/06/23 14:22:16 $
+Working directory is </pool/lsf/telenz/557072752> on <>
+
+/afs/cern.ch/user/t/telenz/work/CMSSW_5_3_14_patch2/src/SUSYBSMAnalysis/HSCP/test/UsefulScripts/StabilityCheck/allRunsLanGausLastVersionChange/Run2012D_205701_206000
+/afs/cern.ch/user/t/telenz/work/CMSSW_5_3_14_patch2/src/SUSYBSMAnalysis/HSCP/test/UsefulScripts/StabilityCheck/allRunsLanGausLastVersionChange/Run2012D_205701_206000/StabilityCheck.sh: line 26: warning: here-document at line 8 delimited by end-of-file (wanted `EOF')
+Compilling with the following arguments: cd $BuildDir ; g++ -DDLL_DECL= -c $Opt -pipe -m64  -std=c++0x -Wall -Wno-deprecated-declarations -Wno-deprecated -Woverloaded-virtual -fPIC -DG__MAXSTRUCT=36000 -DG__MAXTYPEDEF=36000 -DG__LONGLINE=4096 -pthread $IncludePath $SourceFiles ; g++ -DDLL_DECL= $ObjectFiles -shared -Wl,-soname,$LibName.so -m64 -Wl,--hash-style=gnu -O2  $LinkedLibs -o $SharedLib
+Error: stderr was already redirected to a file, it will be redirected but we will not be able to undo this redirection!
+
+Job finished at Fri Aug 22 13:41:11 CEST 2014 on node 
+ under linux version Scientific Linux CERN SLC release 6.5 (Carbon)
+
+CERN statistics: This process used approximately : 0:01:14 KSI2K hours (74 KSI2K seconds)
+                 This process corresponds to     : 0:04:51 HS06  hours (291 HS06  seconds)

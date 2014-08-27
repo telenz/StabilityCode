@@ -1,0 +1,60 @@
+{
+//=========Macro generated from canvas: c1/c1
+//=========  (Fri Aug 22 13:31:50 2014) by ROOT version5.32/00
+   TCanvas *c1 = new TCanvas("c1", "c1",0,0,600,600);
+   gStyle->SetOptFit(1);
+   gStyle->SetOptTitle(0);
+   c1->Range(0,0,1,1);
+   c1->SetFillColor(0);
+   c1->SetBorderMode(0);
+   c1->SetBorderSize(2);
+   c1->SetGridx();
+   c1->SetTickx(1);
+   c1->SetTicky(1);
+   c1->SetLeftMargin(0.07);
+   c1->SetRightMargin(0.03);
+   c1->SetTopMargin(0.06);
+   c1->SetBottomMargin(0.15);
+   c1->SetFrameFillStyle(0);
+   c1->SetFrameBorderMode(0);
+   
+   TProfile *HSCPHLTTriggerMuFiltermyHist = new TProfile("HSCPHLTTriggerMuFiltermyHist","",1,0,1,"");
+   HSCPHLTTriggerMuFiltermyHist->SetBinEntries(1,65862);
+   HSCPHLTTriggerMuFiltermyHist->SetBinContent(1,231576.3);
+   HSCPHLTTriggerMuFiltermyHist->SetBinError(1,910.4173);
+   HSCPHLTTriggerMuFiltermyHist->SetEntries(65862);
+   HSCPHLTTriggerMuFiltermyHist->SetStats(0);
+   HSCPHLTTriggerMuFiltermyHist->SetFillColor(1);
+   HSCPHLTTriggerMuFiltermyHist->SetLineStyle(0);
+   HSCPHLTTriggerMuFiltermyHist->SetMarkerStyle(20);
+   HSCPHLTTriggerMuFiltermyHist->SetMarkerSize(0.4);
+   HSCPHLTTriggerMuFiltermyHist->GetXaxis()->SetBinLabel(1,"203894");
+   HSCPHLTTriggerMuFiltermyHist->GetXaxis()->SetBit(TAxis::kLabelsVert);
+   HSCPHLTTriggerMuFiltermyHist->GetXaxis()->SetNdivisions(505);
+   HSCPHLTTriggerMuFiltermyHist->GetXaxis()->SetLabelFont(42);
+   HSCPHLTTriggerMuFiltermyHist->GetXaxis()->SetLabelOffset(0.007);
+   HSCPHLTTriggerMuFiltermyHist->GetXaxis()->SetTitleOffset(1.1);
+   HSCPHLTTriggerMuFiltermyHist->GetXaxis()->SetTitleFont(42);
+   HSCPHLTTriggerMuFiltermyHist->GetYaxis()->SetTitle("dE/dx estimator");
+   HSCPHLTTriggerMuFiltermyHist->GetYaxis()->SetLabelFont(42);
+   HSCPHLTTriggerMuFiltermyHist->GetYaxis()->SetLabelOffset(0.007);
+   HSCPHLTTriggerMuFiltermyHist->GetYaxis()->SetLabelSize(0.05);
+   HSCPHLTTriggerMuFiltermyHist->GetYaxis()->SetTitleOffset(0.9);
+   HSCPHLTTriggerMuFiltermyHist->GetYaxis()->SetTitleFont(42);
+   HSCPHLTTriggerMuFiltermyHist->GetZaxis()->SetLabelFont(42);
+   HSCPHLTTriggerMuFiltermyHist->GetZaxis()->SetLabelOffset(0.007);
+   HSCPHLTTriggerMuFiltermyHist->GetZaxis()->SetLabelSize(0.05);
+   HSCPHLTTriggerMuFiltermyHist->GetZaxis()->SetTitleFont(42);
+   HSCPHLTTriggerMuFiltermyHist->Draw("E1");
+   
+   TPaveText *pt = new TPaveText(7.096573e-316,7.291122e-304,2.344315e-310,0,"brNDC");
+   pt->SetFillColor(0);
+   pt->SetTextAlign(12);
+   pt->SetTextFont(43);
+   pt->SetTextSize(21);
+   TText *text = pt->AddText("");
+   pt->Draw();
+   c1->Modified();
+   c1->cd();
+   c1->SetSelected(c1);
+}

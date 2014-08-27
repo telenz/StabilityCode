@@ -1,0 +1,65 @@
+>>> including systematics
+>>> using the Simple Likelihood Ratio test statistics (Q_LEP)
+>>> method used to compute upper limit is HybridNew
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Search for upper limit to the limit
+  r = 1.97155 +/- 0
+	CLs = 0.0163551 +/- 0.00616749
+	CLs      = 0.0163551 +/- 0.00616749
+	CLb      = 0.856 +/- 0.0314024
+	CLsplusb = 0.014 +/- 0.00525433
+
+Search for lower limit to the limit
+Now doing proper bracketing & bisection
+  r = 1.43592 +/- 0.985777
+	CLs = 0.0654206 +/- 0.0122496
+	CLs = 0.0589202 +/- 0.0082721
+	CLs = 0.0604473 +/- 0.00689291
+	CLs = 0.0634682 +/- 0.00609301
+	CLs = 0.0609939 +/- 0.00535797
+	CLs = 0.0618268 +/- 0.00491794
+	CLs      = 0.0618268 +/- 0.00491794
+	CLb      = 0.84106 +/- 0.0133063
+	CLsplusb = 0.052 +/- 0.00405364
+
+  r = 1.52144 +/- 0.107127
+	CLs = 0.0537383 +/- 0.0111206
+	CLs = 0.0570995 +/- 0.00819306
+	CLs = 0.052828 +/- 0.00647376
+	CLs = 0.049939 +/- 0.0054597
+	CLs = 0.0489756 +/- 0.00482912
+	CLs      = 0.0489756 +/- 0.00482912
+	CLb      = 0.833068 +/- 0.0148691
+	CLsplusb = 0.0408 +/- 0.00395653
+
+Trying to move the interval edges closer
+  r = 1.7465 +/- 0
+	CLs = 0.0218447 +/- 0.007272
+	CLs      = 0.0218447 +/- 0.007272
+	CLb      = 0.824 +/- 0.0340616
+	CLsplusb = 0.018 +/- 0.00594575
+
+  r = 1.63397 +/- 0
+	CLs = 0.0183486 +/- 0.00646576
+	CLs      = 0.0183486 +/- 0.00646576
+	CLb      = 0.872 +/- 0.0298819
+	CLsplusb = 0.016 +/- 0.00561142
+
+  r = 1.5777 +/- 0
+	CLs = 0.0328947 +/- 0.00841479
+	CLs = 0.0335438 +/- 0.00619489
+	CLs = 0.0365576 +/- 0.00523992
+	CLs = 0.034788 +/- 0.00442409
+	CLs      = 0.034788 +/- 0.00442409
+	CLb      = 0.87674 +/- 0.0146576
+	CLsplusb = 0.0305 +/- 0.00384511
+
+
+ -- HybridNew, before fit -- 
+Limit: r < 1.52144 +/- 0.107127 [1.43592, 1.5777]
+Fit to 3 points: 1.49682 +/- 0.0149394
+
+ -- Hybrid New -- 
+Limit: r < 1.49682 +/- 0.0149394 @ 95% CL
+Done in 0.00 min (cpu), 0.09 min (real)

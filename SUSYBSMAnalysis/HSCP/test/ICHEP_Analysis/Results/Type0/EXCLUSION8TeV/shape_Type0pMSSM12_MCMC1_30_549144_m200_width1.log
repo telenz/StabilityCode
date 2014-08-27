@@ -1,0 +1,69 @@
+>>> including systematics
+>>> using the Simple Likelihood Ratio test statistics (Q_LEP)
+>>> method used to compute upper limit is HybridNew
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Search for upper limit to the limit
+  r = 191.86 +/- 0
+	CLs = 0.00909091 +/- 0.00453718
+	CLs      = 0.00909091 +/- 0.00453718
+	CLb      = 0.88 +/- 0.0290654
+	CLsplusb = 0.008 +/- 0.00398397
+
+Search for lower limit to the limit
+Now doing proper bracketing & bisection
+  r = 122.277 +/- 95.9301
+	CLs = 0.0966981 +/- 0.0149254
+	CLs      = 0.0966981 +/- 0.0149254
+	CLb      = 0.848 +/- 0.0321118
+	CLsplusb = 0.082 +/- 0.01227
+
+  r = 141.689 +/- 13.9166
+	CLs = 0.0545455 +/- 0.0110119
+	CLs = 0.0504241 +/- 0.00742835
+	CLs = 0.0516334 +/- 0.0061977
+	CLs = 0.0542225 +/- 0.00554126
+	CLs = 0.0568277 +/- 0.00504974
+	CLs = 0.0581358 +/- 0.00466569
+	CLs      = 0.0581358 +/- 0.00466569
+	CLb      = 0.871523 +/- 0.0121781
+	CLsplusb = 0.0506667 +/- 0.00400415
+
+Trying to move the interval edges closer
+  r = 131.983 +/- 0
+	CLs = 0.111111 +/- 0.0167878
+	CLs      = 0.111111 +/- 0.0167878
+	CLb      = 0.792 +/- 0.0363027
+	CLsplusb = 0.088 +/- 0.0126693
+
+  r = 136.836 +/- 0
+	CLs = 0.0985577 +/- 0.0152703
+	CLs      = 0.0985577 +/- 0.0152703
+	CLb      = 0.832 +/- 0.0334396
+	CLsplusb = 0.082 +/- 0.01227
+
+  r = 166.774 +/- 0
+	CLs = 0.0357143 +/- 0.0091884
+	CLs = 0.0277604 +/- 0.00564095
+	CLs      = 0.0277604 +/- 0.00564095
+	CLb      = 0.864542 +/- 0.0216002
+	CLsplusb = 0.024 +/- 0.00483983
+
+  r = 154.232 +/- 0
+	CLs = 0.0594059 +/- 0.0121118
+	CLs = 0.0482692 +/- 0.00760507
+	CLs = 0.0455542 +/- 0.00594778
+	CLs = 0.0453525 +/- 0.00513923
+	CLs = 0.0431712 +/- 0.0044464
+	CLs      = 0.0431712 +/- 0.0044464
+	CLb      = 0.861685 +/- 0.0137652
+	CLsplusb = 0.0372 +/- 0.00378503
+
+
+ -- HybridNew, before fit -- 
+Limit: r < 141.689 +/- 13.9166 [136.836, 166.774]
+Fit to 4 points: 148.473 +/- 1.80871
+
+ -- Hybrid New -- 
+Limit: r < 148.473 +/- 1.80871 @ 95% CL
+Done in 0.00 min (cpu), 0.10 min (real)

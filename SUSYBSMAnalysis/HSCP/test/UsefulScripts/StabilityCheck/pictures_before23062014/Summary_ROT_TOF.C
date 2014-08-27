@@ -1,0 +1,72 @@
+{
+//=========Macro generated from canvas: c1/c1,
+//=========  (Tue Mar 18 15:16:56 2014) by ROOT version5.32/00
+   TCanvas *c1 = new TCanvas("c1", "c1,",0,0,1200,600);
+   gStyle->SetOptFit(1);
+   gStyle->SetOptTitle(0);
+   c1->Range(-0.3111111,-0.03797468,4.133333,0.2151899);
+   c1->SetFillColor(0);
+   c1->SetBorderMode(0);
+   c1->SetBorderSize(2);
+   c1->SetTickx(1);
+   c1->SetTicky(1);
+   c1->SetLeftMargin(0.07);
+   c1->SetRightMargin(0.03);
+   c1->SetTopMargin(0.06);
+   c1->SetBottomMargin(0.15);
+   c1->SetFrameFillStyle(0);
+   c1->SetFrameBorderMode(0);
+   c1->SetFrameFillStyle(0);
+   c1->SetFrameBorderMode(0);
+   
+   TH1D *AnyHTOF = new TH1D("AnyHTOF","",4,0,4);
+   AnyHTOF->SetBinContent(1,0.06735751);
+   AnyHTOF->SetBinContent(3,0.1110574);
+   AnyHTOF->SetBinContent(4,0.0982393);
+   AnyHTOF->SetBinError(1,0.01930053);
+   AnyHTOF->SetBinError(3,0.004459704);
+   AnyHTOF->SetBinError(4,0.004646147);
+   AnyHTOF->SetMinimum(0);
+   AnyHTOF->SetMaximum(0.2);
+   AnyHTOF->SetEntries(184.8794);
+   AnyHTOF->SetStats(0);
+   AnyHTOF->SetLineStyle(0);
+   AnyHTOF->SetLineWidth(2);
+   AnyHTOF->SetMarkerStyle(20);
+   AnyHTOF->SetMarkerSize(0.5);
+   AnyHTOF->GetXaxis()->SetBinLabel(1,"190645");
+   AnyHTOF->GetXaxis()->SetBinLabel(2,"");
+   AnyHTOF->GetXaxis()->SetBinLabel(3,"");
+   AnyHTOF->GetXaxis()->SetBinLabel(4,"190738");
+   AnyHTOF->GetXaxis()->SetBit(TAxis::kLabelsVert);
+   AnyHTOF->GetXaxis()->SetNdivisions(505);
+   AnyHTOF->GetXaxis()->SetLabelFont(42);
+   AnyHTOF->GetXaxis()->SetLabelOffset(0.007);
+   AnyHTOF->GetXaxis()->SetLabelSize(0.05);
+   AnyHTOF->GetXaxis()->SetTitleSize(0.05);
+   AnyHTOF->GetXaxis()->SetTitleOffset(1.1);
+   AnyHTOF->GetXaxis()->SetTitleFont(42);
+   AnyHTOF->GetYaxis()->SetTitle("1/#beta_{TOF} ROT");
+   AnyHTOF->GetYaxis()->SetNdivisions(505);
+   AnyHTOF->GetYaxis()->SetLabelFont(42);
+   AnyHTOF->GetYaxis()->SetLabelOffset(0.007);
+   AnyHTOF->GetYaxis()->SetLabelSize(0.05);
+   AnyHTOF->GetYaxis()->SetTitleOffset(0.9);
+   AnyHTOF->GetYaxis()->SetTitleFont(42);
+   AnyHTOF->GetZaxis()->SetLabelFont(42);
+   AnyHTOF->GetZaxis()->SetLabelOffset(0.007);
+   AnyHTOF->GetZaxis()->SetLabelSize(0.05);
+   AnyHTOF->GetZaxis()->SetTitleFont(42);
+   AnyHTOF->Draw("E1");
+   
+   TPaveText *pt = new TPaveText(0.945,0.82,0.995,0.945,"brNDC");
+   pt->SetFillColor(0);
+   pt->SetTextAlign(12);
+   pt->SetTextFont(43);
+   pt->SetTextSize(21);
+   TText *text = pt->AddText("Ђявя");
+   pt->Draw();
+   c1->Modified();
+   c1->cd();
+   c1->SetSelected(c1);
+}

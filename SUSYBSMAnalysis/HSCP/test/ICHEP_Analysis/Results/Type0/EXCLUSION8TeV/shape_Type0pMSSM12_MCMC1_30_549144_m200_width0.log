@@ -1,0 +1,73 @@
+>>> including systematics
+>>> using the Simple Likelihood Ratio test statistics (Q_LEP)
+>>> method used to compute upper limit is HybridNew
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Search for upper limit to the limit
+  r = 473.064 +/- 0
+	CLs = 0.0188679 +/- 0.0066557
+	CLs      = 0.0188679 +/- 0.0066557
+	CLb      = 0.848 +/- 0.0321118
+	CLsplusb = 0.016 +/- 0.00561142
+
+Search for lower limit to the limit
+Now doing proper bracketing & bisection
+  r = 356.945 +/- 236.532
+	CLs = 0.0747664 +/- 0.0130779
+	CLs = 0.067169 +/- 0.00882311
+	CLs = 0.0668101 +/- 0.00724209
+	CLs = 0.0705861 +/- 0.00642053
+	CLs      = 0.0705861 +/- 0.00642053
+	CLb      = 0.842942 +/- 0.0162235
+	CLsplusb = 0.0595 +/- 0.0052896
+
+  r = 387.292 +/- 23.224
+	CLs = 0.0357143 +/- 0.0091884
+	CLs = 0.0449906 +/- 0.0072613
+	CLs = 0.045697 +/- 0.00596813
+	CLs = 0.0422139 +/- 0.00498777
+	CLs      = 0.0422139 +/- 0.00498777
+	CLb      = 0.840954 +/- 0.0163066
+	CLsplusb = 0.0355 +/- 0.00413762
+
+Trying to move the interval edges closer
+  r = 372.118 +/- 0
+	CLs = 0.0555556 +/- 0.011239
+	CLs = 0.0497264 +/- 0.0076298
+	CLs = 0.0434696 +/- 0.00583324
+	CLs = 0.0466397 +/- 0.00521814
+	CLs = 0.0476765 +/- 0.00471669
+	CLs      = 0.0476765 +/- 0.00471669
+	CLb      = 0.847377 +/- 0.0143391
+	CLsplusb = 0.0404 +/- 0.00393791
+
+  r = 430.178 +/- 0
+	CLs = 0.0285088 +/- 0.00784354
+	CLs = 0.0289171 +/- 0.00575618
+	CLs      = 0.0289171 +/- 0.00575618
+	CLb      = 0.864542 +/- 0.0216002
+	CLsplusb = 0.025 +/- 0.0049371
+
+  r = 408.735 +/- 0
+	CLs = 0.0223214 +/- 0.00702074
+	CLs      = 0.0223214 +/- 0.00702074
+	CLb      = 0.896 +/- 0.0273033
+	CLsplusb = 0.02 +/- 0.00626099
+
+  r = 398.013 +/- 0
+	CLs = 0.0363636 +/- 0.00902455
+	CLs = 0.0426226 +/- 0.00706954
+	CLs = 0.0425455 +/- 0.00576081
+	CLs = 0.0366894 +/- 0.00464
+	CLs      = 0.0366894 +/- 0.00464
+	CLb      = 0.84493 +/- 0.0161395
+	CLsplusb = 0.031 +/- 0.0038755
+
+
+ -- HybridNew, before fit -- 
+Limit: r < 387.292 +/- 23.224 [356.945, 398.013]
+Fit to 4 points: 375.088 +/- 3.37569
+
+ -- Hybrid New -- 
+Limit: r < 375.088 +/- 3.37569 @ 95% CL
+Done in 0.00 min (cpu), 0.12 min (real)

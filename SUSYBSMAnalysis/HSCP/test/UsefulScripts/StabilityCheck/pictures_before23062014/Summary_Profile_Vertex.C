@@ -1,0 +1,78 @@
+{
+//=========Macro generated from canvas: c1/c1,
+//=========  (Tue Mar 18 15:16:56 2014) by ROOT version5.32/00
+   TCanvas *c1 = new TCanvas("c1", "c1,",0,0,1200,600);
+   gStyle->SetOptFit(1);
+   gStyle->SetOptTitle(0);
+   c1->Range(-0.3111111,-5.518987,4.133333,4.607595);
+   c1->SetFillColor(0);
+   c1->SetBorderMode(0);
+   c1->SetBorderSize(2);
+   c1->SetTickx(1);
+   c1->SetTicky(1);
+   c1->SetLeftMargin(0.07);
+   c1->SetRightMargin(0.03);
+   c1->SetTopMargin(0.06);
+   c1->SetBottomMargin(0.15);
+   c1->SetFrameFillStyle(0);
+   c1->SetFrameBorderMode(0);
+   c1->SetFrameFillStyle(0);
+   c1->SetFrameBorderMode(0);
+   
+   TProfile *AnyVertexProf = new TProfile("AnyVertexProf","",4,0,4,"");
+   AnyVertexProf->SetBinEntries(1,404);
+   AnyVertexProf->SetBinEntries(2,5);
+   AnyVertexProf->SetBinEntries(3,11092);
+   AnyVertexProf->SetBinEntries(4,9594);
+   AnyVertexProf->SetBinContent(1,-59.96867);
+   AnyVertexProf->SetBinContent(2,-2.558959);
+   AnyVertexProf->SetBinContent(3,2122.831);
+   AnyVertexProf->SetBinContent(4,361.1728);
+   AnyVertexProf->SetBinError(1,31.39734);
+   AnyVertexProf->SetBinError(2,2.643462);
+   AnyVertexProf->SetBinError(3,164.9934);
+   AnyVertexProf->SetBinError(4,171.7678);
+   AnyVertexProf->SetMinimum(-4);
+   AnyVertexProf->SetMaximum(4);
+   AnyVertexProf->SetEntries(21095);
+   AnyVertexProf->SetStats(0);
+   AnyVertexProf->SetLineStyle(0);
+   AnyVertexProf->SetLineWidth(2);
+   AnyVertexProf->SetMarkerStyle(20);
+   AnyVertexProf->SetMarkerSize(0.5);
+   AnyVertexProf->GetXaxis()->SetBinLabel(1,"190645");
+   AnyVertexProf->GetXaxis()->SetBinLabel(2,"");
+   AnyVertexProf->GetXaxis()->SetBinLabel(3,"");
+   AnyVertexProf->GetXaxis()->SetBinLabel(4,"190738");
+   AnyVertexProf->GetXaxis()->SetBit(TAxis::kLabelsVert);
+   AnyVertexProf->GetXaxis()->SetNdivisions(505);
+   AnyVertexProf->GetXaxis()->SetLabelFont(42);
+   AnyVertexProf->GetXaxis()->SetLabelOffset(0.007);
+   AnyVertexProf->GetXaxis()->SetLabelSize(0.05);
+   AnyVertexProf->GetXaxis()->SetTitleSize(0.05);
+   AnyVertexProf->GetXaxis()->SetTitleOffset(1.1);
+   AnyVertexProf->GetXaxis()->SetTitleFont(42);
+   AnyVertexProf->GetYaxis()->SetTitle("Vertex time [ns]");
+   AnyVertexProf->GetYaxis()->SetNdivisions(505);
+   AnyVertexProf->GetYaxis()->SetLabelFont(42);
+   AnyVertexProf->GetYaxis()->SetLabelOffset(0.007);
+   AnyVertexProf->GetYaxis()->SetLabelSize(0.05);
+   AnyVertexProf->GetYaxis()->SetTitleOffset(0.9);
+   AnyVertexProf->GetYaxis()->SetTitleFont(42);
+   AnyVertexProf->GetZaxis()->SetLabelFont(42);
+   AnyVertexProf->GetZaxis()->SetLabelOffset(0.007);
+   AnyVertexProf->GetZaxis()->SetLabelSize(0.05);
+   AnyVertexProf->GetZaxis()->SetTitleFont(42);
+   AnyVertexProf->Draw("E1");
+   
+   TPaveText *pt = new TPaveText(0.945,0.82,0.995,0.945,"brNDC");
+   pt->SetFillColor(0);
+   pt->SetTextAlign(12);
+   pt->SetTextFont(43);
+   pt->SetTextSize(21);
+   TText *text = pt->AddText("Ђявя");
+   pt->Draw();
+   c1->Modified();
+   c1->cd();
+   c1->SetSelected(c1);
+}

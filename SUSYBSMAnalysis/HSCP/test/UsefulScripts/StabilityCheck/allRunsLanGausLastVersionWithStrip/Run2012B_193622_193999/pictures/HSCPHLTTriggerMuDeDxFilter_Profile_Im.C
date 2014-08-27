@@ -1,0 +1,76 @@
+{
+//=========Macro generated from canvas: c1/c1
+//=========  (Thu Aug 21 17:34:06 2014) by ROOT version5.32/00
+   TCanvas *c1 = new TCanvas("c1", "c1",0,0,600,600);
+   gStyle->SetOptFit(1);
+   gStyle->SetOptTitle(0);
+   c1->Range(0,0,1,1);
+   c1->SetFillColor(0);
+   c1->SetBorderMode(0);
+   c1->SetBorderSize(2);
+   c1->SetGridx();
+   c1->SetTickx(1);
+   c1->SetTicky(1);
+   c1->SetLeftMargin(0.07);
+   c1->SetRightMargin(0.03);
+   c1->SetTopMargin(0.06);
+   c1->SetBottomMargin(0.15);
+   c1->SetFrameFillStyle(0);
+   c1->SetFrameBorderMode(0);
+   
+   TProfile *HSCPHLTTriggerMuDeDxFilterdEdxMProf = new TProfile("HSCPHLTTriggerMuDeDxFilterdEdxMProf","",5,0,5,"");
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->SetBinEntries(1,54);
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->SetBinEntries(2,22);
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->SetBinEntries(3,4);
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->SetBinEntries(4,897);
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->SetBinEntries(5,175);
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->SetBinContent(1,180.9941);
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->SetBinContent(2,75.68283);
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->SetBinContent(3,14.61226);
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->SetBinContent(4,3043.117);
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->SetBinContent(5,597.9316);
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->SetBinError(1,24.72806);
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->SetBinError(2,16.17102);
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->SetBinError(3,7.339333);
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->SetBinError(4,101.8646);
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->SetBinError(5,45.28801);
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->SetEntries(1152);
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->SetStats(0);
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->SetFillColor(1);
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->SetLineStyle(0);
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->SetMarkerStyle(20);
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->SetMarkerSize(0.4);
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->GetXaxis()->SetBinLabel(1,"193834");
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->GetXaxis()->SetBinLabel(2,"193835");
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->GetXaxis()->SetBinLabel(3,"193836");
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->GetXaxis()->SetBinLabel(4,"193998");
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->GetXaxis()->SetBinLabel(5,"193999");
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->GetXaxis()->SetBit(TAxis::kLabelsVert);
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->GetXaxis()->SetNdivisions(505);
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->GetXaxis()->SetLabelFont(42);
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->GetXaxis()->SetLabelOffset(0.007);
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->GetXaxis()->SetTitleOffset(1.1);
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->GetXaxis()->SetTitleFont(42);
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->GetYaxis()->SetTitle("dE/dx estimator");
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->GetYaxis()->SetLabelFont(42);
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->GetYaxis()->SetLabelOffset(0.007);
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->GetYaxis()->SetLabelSize(0.05);
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->GetYaxis()->SetTitleOffset(0.9);
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->GetYaxis()->SetTitleFont(42);
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->GetZaxis()->SetLabelFont(42);
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->GetZaxis()->SetLabelOffset(0.007);
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->GetZaxis()->SetLabelSize(0.05);
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->GetZaxis()->SetTitleFont(42);
+   HSCPHLTTriggerMuDeDxFilterdEdxMProf->Draw("E1");
+   
+   TPaveText *pt = new TPaveText(7.890248e-316,7.291122e-304,2.354467e-310,8.606361e-316,"brNDC");
+   pt->SetFillColor(0);
+   pt->SetTextAlign(12);
+   pt->SetTextFont(43);
+   pt->SetTextSize(21);
+   TText *text = pt->AddText("");
+   pt->Draw();
+   c1->Modified();
+   c1->cd();
+   c1->SetSelected(c1);
+}

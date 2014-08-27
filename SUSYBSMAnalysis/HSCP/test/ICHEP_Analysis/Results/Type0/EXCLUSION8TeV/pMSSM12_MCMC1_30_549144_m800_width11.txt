@@ -1,0 +1,29 @@
+Mass         : 800.000000
+MassMean     : 752.400542
+MassSigma    : 120.054043
+MassCut      : 510.000000
+Index        : 84.000000
+WP_Pt        : 70.000000
+WP_I         : 0.400000
+WP_TOF       : -1.000000
+Eff          : 0.277447 +- 0.004909
+Eff_SystP    : 0.277447 +- 0.004909
+Eff_SystI    : 0.294368 +- 0.005056
+Eff_SystM    : 0.277726 +- 0.004911
+Eff_SystT    : 0.277447 +- 0.004909
+Eff_SystPU   : 0.277447 +- 0.004909
+TotalUnc     : 0.091213
+Signif       : 0.000000
+XSec_Th      : 0.000072
+XSec_Exp     : 0.000551
+XSec_ExpUp   : 0.000577
+XSec_ExpDown : 0.000522
+XSec_Exp2Up  : 0.000727
+XSec_Exp2Down: 0.000441
+XSec_Obs     : 0.000570
+NData        : +0.00E+00
+NPred        : +3.95E-02
+NPredErr     : +7.96E-03
+NSign        : +3.74E-01
+LInt         : 18823.000000
+XSec_5Sigma  : 0.000599

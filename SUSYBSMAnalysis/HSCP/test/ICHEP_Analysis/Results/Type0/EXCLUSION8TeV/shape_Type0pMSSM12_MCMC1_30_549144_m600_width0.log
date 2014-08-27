@@ -1,0 +1,81 @@
+>>> including systematics
+>>> using the Simple Likelihood Ratio test statistics (Q_LEP)
+>>> method used to compute upper limit is HybridNew
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Search for upper limit to the limit
+  r = 4239.74 +/- 0
+	CLs = 0.0931818 +/- 0.0142788
+	CLs      = 0.0931818 +/- 0.0142788
+	CLb      = 0.88 +/- 0.0290654
+	CLsplusb = 0.082 +/- 0.01227
+
+  r = 8479.48 +/- 0
+	CLs = 0.0208333 +/- 0.00692126
+	CLs      = 0.0208333 +/- 0.00692126
+	CLb      = 0.864 +/- 0.0306599
+	CLsplusb = 0.018 +/- 0.00594575
+
+Search for lower limit to the limit
+Now doing proper bracketing & bisection
+  r = 6561.85 +/- 4239.74
+	CLs = 0.0431818 +/- 0.00982066
+	CLs = 0.0485806 +/- 0.00743677
+	CLs = 0.0431738 +/- 0.00572854
+	CLs = 0.0435624 +/- 0.00499634
+	CLs      = 0.0435624 +/- 0.00499634
+	CLb      = 0.860835 +/- 0.0154327
+	CLsplusb = 0.0375 +/- 0.00424816
+
+Trying to move the interval edges closer
+  r = 3280.93 +/- 0
+	CLs = 0.190909 +/- 0.0200188
+	CLs      = 0.190909 +/- 0.0200188
+	CLb      = 0.88 +/- 0.0290654
+	CLsplusb = 0.168 +/- 0.0167198
+
+  r = 4921.39 +/- 0
+	CLs = 0.111364 +/- 0.0155507
+	CLs      = 0.111364 +/- 0.0155507
+	CLb      = 0.88 +/- 0.0290654
+	CLsplusb = 0.098 +/- 0.0132963
+
+  r = 5741.62 +/- 0
+	CLs = 0.0491453 +/- 0.0100748
+	CLs = 0.0433142 +/- 0.00685976
+	CLs = 0.0499683 +/- 0.00603223
+	CLs = 0.0495123 +/- 0.00521943
+	CLs = 0.0515758 +/- 0.00475179
+	CLs      = 0.0515758 +/- 0.00475179
+	CLb      = 0.891892 +/- 0.0123811
+	CLsplusb = 0.046 +/- 0.0041897
+
+  r = 7520.67 +/- 0
+	CLs = 0.018018 +/- 0.00634503
+	CLs      = 0.018018 +/- 0.00634503
+	CLb      = 0.888 +/- 0.0282072
+	CLsplusb = 0.016 +/- 0.00561142
+
+  r = 7041.26 +/- 0
+	CLs = 0.0221239 +/- 0.00695583
+	CLs      = 0.0221239 +/- 0.00695583
+	CLb      = 0.904 +/- 0.026349
+	CLsplusb = 0.02 +/- 0.00626099
+
+  r = 6801.56 +/- 0
+	CLs = 0.0307018 +/- 0.00813455
+	CLs = 0.0337668 +/- 0.00611856
+	CLs = 0.036544 +/- 0.00517538
+	CLs = 0.0390457 +/- 0.00470187
+	CLs      = 0.0390457 +/- 0.00470187
+	CLb      = 0.870775 +/- 0.0149569
+	CLsplusb = 0.034 +/- 0.00405241
+
+
+ -- HybridNew, before fit -- 
+Limit: r < 6561.85 +/- 4239.74 [4921.39, 6801.56]
+Fit to 4 points: 6098.72 +/- 130.079
+
+ -- Hybrid New -- 
+Limit: r < 6098.72 +/- 130.079 @ 95% CL
+Done in 0.00 min (cpu), 0.12 min (real)

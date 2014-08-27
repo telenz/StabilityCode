@@ -1,0 +1,169 @@
+	CLs = 0.00245098 +/- 0.00245074
+	CLs = 0.00382653 +/- 0.00220959
+	CLs = 0.00256849 +/- 0.00148312
+	CLs = 0.00387597 +/- 0.00158276
+	CLs = 0.00365344 +/- 0.0013813
+	CLs = 0.00389273 +/- 0.00129795
+	CLs = 0.00411061 +/- 0.00123985
+	CLs = 0.00423729 +/- 0.00117562
+	CLs      = 0.00423729 +/- 0.00117562
+	CLb      = 0.767 +/- 0.0133683
+	CLsplusb = 0.00325 +/- 0.000899922
+
+Hybrid result saved as HypoTestResult_mh120_r569.469_4134369075 in higgsCombineType0pMSSM12_MCMC1_30_549144_m500_width3.HybridNew.mH120.30.root : higgsCombineType0pMSSM12_MCMC1_30_549144_m500_width3.HybridNew.mH120.30.root:/toys
+
+ -- Hybrid New -- 
+CLs = 0.00423729 +/- 0.00117562
+Done in 0.00 min (cpu), 0.28 min (real)
+hadd Target file: higgsCombineType0pMSSM12_MCMC1_30_549144_m500_width3.HybridNew.mH500grid.root
+hadd Source file 1: higgsCombineType0pMSSM12_MCMC1_30_549144_m500_width3.HybridNew.mH120.0.root
+hadd Source file 2: higgsCombineType0pMSSM12_MCMC1_30_549144_m500_width3.HybridNew.mH120.1.root
+hadd Source file 3: higgsCombineType0pMSSM12_MCMC1_30_549144_m500_width3.HybridNew.mH120.10.root
+hadd Source file 4: higgsCombineType0pMSSM12_MCMC1_30_549144_m500_width3.HybridNew.mH120.11.root
+hadd Source file 5: higgsCombineType0pMSSM12_MCMC1_30_549144_m500_width3.HybridNew.mH120.12.root
+hadd Source file 6: higgsCombineType0pMSSM12_MCMC1_30_549144_m500_width3.HybridNew.mH120.13.root
+hadd Source file 7: higgsCombineType0pMSSM12_MCMC1_30_549144_m500_width3.HybridNew.mH120.14.root
+hadd Source file 8: higgsCombineType0pMSSM12_MCMC1_30_549144_m500_width3.HybridNew.mH120.15.root
+hadd Source file 9: higgsCombineType0pMSSM12_MCMC1_30_549144_m500_width3.HybridNew.mH120.16.root
+hadd Source file 10: higgsCombineType0pMSSM12_MCMC1_30_549144_m500_width3.HybridNew.mH120.17.root
+hadd Source file 11: higgsCombineType0pMSSM12_MCMC1_30_549144_m500_width3.HybridNew.mH120.18.root
+hadd Source file 12: higgsCombineType0pMSSM12_MCMC1_30_549144_m500_width3.HybridNew.mH120.19.root
+hadd Source file 13: higgsCombineType0pMSSM12_MCMC1_30_549144_m500_width3.HybridNew.mH120.2.root
+hadd Source file 14: higgsCombineType0pMSSM12_MCMC1_30_549144_m500_width3.HybridNew.mH120.20.root
+hadd Source file 15: higgsCombineType0pMSSM12_MCMC1_30_549144_m500_width3.HybridNew.mH120.21.root
+hadd Source file 16: higgsCombineType0pMSSM12_MCMC1_30_549144_m500_width3.HybridNew.mH120.22.root
+hadd Source file 17: higgsCombineType0pMSSM12_MCMC1_30_549144_m500_width3.HybridNew.mH120.23.root
+hadd Source file 18: higgsCombineType0pMSSM12_MCMC1_30_549144_m500_width3.HybridNew.mH120.24.root
+hadd Source file 19: higgsCombineType0pMSSM12_MCMC1_30_549144_m500_width3.HybridNew.mH120.25.root
+hadd Source file 20: higgsCombineType0pMSSM12_MCMC1_30_549144_m500_width3.HybridNew.mH120.26.root
+hadd Source file 21: higgsCombineType0pMSSM12_MCMC1_30_549144_m500_width3.HybridNew.mH120.27.root
+hadd Source file 22: higgsCombineType0pMSSM12_MCMC1_30_549144_m500_width3.HybridNew.mH120.28.root
+hadd Source file 23: higgsCombineType0pMSSM12_MCMC1_30_549144_m500_width3.HybridNew.mH120.29.root
+hadd Source file 24: higgsCombineType0pMSSM12_MCMC1_30_549144_m500_width3.HybridNew.mH120.3.root
+hadd Source file 25: higgsCombineType0pMSSM12_MCMC1_30_549144_m500_width3.HybridNew.mH120.30.root
+hadd Source file 26: higgsCombineType0pMSSM12_MCMC1_30_549144_m500_width3.HybridNew.mH120.4.root
+hadd Source file 27: higgsCombineType0pMSSM12_MCMC1_30_549144_m500_width3.HybridNew.mH120.5.root
+hadd Source file 28: higgsCombineType0pMSSM12_MCMC1_30_549144_m500_width3.HybridNew.mH120.6.root
+hadd Source file 29: higgsCombineType0pMSSM12_MCMC1_30_549144_m500_width3.HybridNew.mH120.7.root
+hadd Source file 30: higgsCombineType0pMSSM12_MCMC1_30_549144_m500_width3.HybridNew.mH120.8.root
+hadd Source file 31: higgsCombineType0pMSSM12_MCMC1_30_549144_m500_width3.HybridNew.mH120.9.root
+hadd Target path: higgsCombineType0pMSSM12_MCMC1_30_549144_m500_width3.HybridNew.mH500grid.root:/
+hadd Target path: higgsCombineType0pMSSM12_MCMC1_30_549144_m500_width3.HybridNew.mH500grid.root:/toys
+>>> including systematics
+>>> using the Simple Likelihood Ratio test statistics (Q_LEP)
+>>> method used to compute upper limit is HybridNew
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Search for upper limit using pre-computed grid of p-values
+  r 182.24: CLs = 0.1067 +/- 0.0076
+  r 199.08: CLs = 0.0963 +/- 0.0072
+  r 215.91: CLs = 0.0770 +/- 0.0065
+  r 232.75: CLs = 0.0601 +/- 0.0057
+  r 249.59: CLs = 0.0511 +/- 0.0054
+  r 266.42: CLs = 0.0381 +/- 0.0043
+  r 283.26: CLs = 0.0316 +/- 0.0038
+  r 300.09: CLs = 0.0347 +/- 0.0039
+  r 316.93: CLs = 0.0178 +/- 0.0032
+ after scan x ~ 249.587, bounds [ 199.079, 316.93]
+
+ -- HybridNew, before fit -- 
+Limit: r < 249.587 +/- 67.343 [199.079, 316.93]
+Fit to 8 points: 249.746 +/- 2.90919
+
+ -- Hybrid New -- 
+Limit: r < 249.746 +/- 2.90919 @ 95% CL
+Done in 0.00 min (cpu), 0.00 min (real)
+>>> including systematics
+>>> using the Simple Likelihood Ratio test statistics (Q_LEP)
+>>> method used to compute upper limit is HybridNew
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Search for upper limit using pre-computed grid of p-values
+  r 165.41: CLs = 0.1101 +/- 0.0162
+  r 182.24: CLs = 0.0891 +/- 0.0170
+  r 199.08: CLs = 0.0868 +/- 0.0139
+  r 215.91: CLs = 0.0655 +/- 0.0084
+  r 232.75: CLs = 0.0462 +/- 0.0074
+  r 249.59: CLs = 0.0453 +/- 0.0066
+  r 266.42: CLs = 0.0301 +/- 0.0057
+  r 283.26: CLs = 0.0256 +/- 0.0051
+  r 300.09: CLs = 0.0268 +/- 0.0072
+  r 316.93: CLs = 0.0099 +/- 0.0050
+ after scan x ~ 232.751, bounds [ 165.407, 316.93]
+
+ -- HybridNew, before fit -- 
+Limit: r < 232.751 +/- 84.179 [165.407, 316.93]
+Fit to 10 points: 231.88 +/- 4.3287
+
+ -- Hybrid New -- 
+Limit: r < 231.88 +/- 4.3287 @ 95% CL
+Done in 0.00 min (cpu), 0.00 min (real)
+>>> including systematics
+>>> using the Simple Likelihood Ratio test statistics (Q_LEP)
+>>> method used to compute upper limit is HybridNew
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Search for upper limit using pre-computed grid of p-values
+  r 283.26: CLs = 0.0991 +/- 0.0054
+  r 300.09: CLs = 0.0728 +/- 0.0046
+  r 316.93: CLs = 0.0657 +/- 0.0044
+  r 333.77: CLs = 0.0681 +/- 0.0045
+  r 350.60: CLs = 0.0435 +/- 0.0036
+  r 367.44: CLs = 0.0385 +/- 0.0034
+  r 384.27: CLs = 0.0367 +/- 0.0033
+  r 401.11: CLs = 0.0326 +/- 0.0031
+  r 417.95: CLs = 0.0200 +/- 0.0024
+ after scan x ~ 350.602, bounds [ 283.258, 417.946]
+
+ -- HybridNew, before fit -- 
+Limit: r < 350.602 +/- 67.344 [283.258, 417.946]
+Fit to 9 points: 345.63 +/- 2.54871
+
+ -- Hybrid New -- 
+Limit: r < 345.63 +/- 2.54871 @ 95% CL
+Done in 0.00 min (cpu), 0.00 min (real)
+>>> including systematics
+>>> using the Simple Likelihood Ratio test statistics (Q_LEP)
+>>> method used to compute upper limit is HybridNew
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Search for upper limit using pre-computed grid of p-values
+  r 148.57: CLs = 0.1339 +/- 0.0186
+  r 165.41: CLs = 0.0743 +/- 0.0254
+  r 182.24: CLs = 0.0763 +/- 0.0124
+  r 199.08: CLs = 0.0635 +/- 0.0176
+  r 215.91: CLs = 0.0625 +/- 0.0085
+  r 232.75: CLs = 0.0000 +/- 0.0000
+ after scan x ~ 215.915, bounds [ 148.571, 232.751]
+
+ -- HybridNew, before fit -- 
+Limit: r < 215.915 +/- 67.344 [148.571, 232.751]
+Fit to 6 points: 229.474 +/- 15.3903
+
+ -- Hybrid New -- 
+Limit: r < 229.474 +/- 15.3903 @ 95% CL
+Done in 0.00 min (cpu), 0.00 min (real)
+>>> including systematics
+>>> using the Simple Likelihood Ratio test statistics (Q_LEP)
+>>> method used to compute upper limit is HybridNew
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Search for upper limit using pre-computed grid of p-values
+  r 434.78: CLs = 0.1030 +/- 0.0049
+  r 451.62: CLs = 0.0800 +/- 0.0044
+  r 468.45: CLs = 0.0531 +/- 0.0036
+  r 485.29: CLs = 0.0521 +/- 0.0036
+  r 502.12: CLs = 0.0428 +/- 0.0033
+  r 518.96: CLs = 0.0395 +/- 0.0031
+  r 535.80: CLs = 0.0338 +/- 0.0029
+  r 552.63: CLs = 0.0292 +/- 0.0027
+  r 569.47: CLs = 0.0239 +/- 0.0024
+ after scan x ~ 485.289, bounds [ 434.782, 569.469]
+
+ -- HybridNew, before fit -- 
+Limit: r < 485.289 +/- 84.18 [434.782, 569.469]
+Fit to 9 points: 493.102 +/- 2.28913
+
+ -- Hybrid New -- 
+Limit: r < 493.102 +/- 2.28913 @ 95% CL
+Done in 0.00 min (cpu), 0.00 min (real)

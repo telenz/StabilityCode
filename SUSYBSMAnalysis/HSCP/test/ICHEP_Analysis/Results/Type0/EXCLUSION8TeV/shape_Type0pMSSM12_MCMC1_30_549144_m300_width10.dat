@@ -1,0 +1,16 @@
+imax 1
+jmax *
+kmax *
+-------------------------------
+bin SQRTS08Cut084
+Observation 9.000000
+-------------------------------
+bin      SQRTS08Cut084 SQRTS08Cut084
+process  pMSSM12_MCMC1_30_549144_m300_width10 pred
+process  0 1
+rate    1.508464 4.654816
+-------------------------------
+                               Lumi       lnN 1.044     1.0  
+                 SQRTS08Cut084systP       lnN -         1.202
+                 SQRTS08Cut084systS       lnN 1.109     -    
+                 SQRTS08Cut084statS       lnN 1.022     -    

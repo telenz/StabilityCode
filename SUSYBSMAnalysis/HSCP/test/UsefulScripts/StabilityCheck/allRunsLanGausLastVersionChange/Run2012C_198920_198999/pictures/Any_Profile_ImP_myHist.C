@@ -1,0 +1,72 @@
+{
+//=========Macro generated from canvas: c1/c1
+//=========  (Fri Aug 22 13:51:39 2014) by ROOT version5.32/00
+   TCanvas *c1 = new TCanvas("c1", "c1",0,0,600,600);
+   gStyle->SetOptFit(1);
+   gStyle->SetOptTitle(0);
+   c1->Range(0,0,1,1);
+   c1->SetFillColor(0);
+   c1->SetBorderMode(0);
+   c1->SetBorderSize(2);
+   c1->SetGridx();
+   c1->SetTickx(1);
+   c1->SetTicky(1);
+   c1->SetLeftMargin(0.07);
+   c1->SetRightMargin(0.03);
+   c1->SetTopMargin(0.06);
+   c1->SetBottomMargin(0.15);
+   c1->SetFrameFillStyle(0);
+   c1->SetFrameBorderMode(0);
+   
+   TProfile *AnymyHist = new TProfile("AnymyHist","",4,0,4,"");
+   AnymyHist->SetBinEntries(1,12564);
+   AnymyHist->SetBinEntries(2,11414);
+   AnymyHist->SetBinEntries(3,74776);
+   AnymyHist->SetBinEntries(4,67434);
+   AnymyHist->SetBinContent(1,43799.58);
+   AnymyHist->SetBinContent(2,39711.47);
+   AnymyHist->SetBinContent(3,261400.4);
+   AnymyHist->SetBinContent(4,235121.5);
+   AnymyHist->SetBinError(1,394.2638);
+   AnymyHist->SetBinError(2,374.6957);
+   AnymyHist->SetBinError(3,963.9142);
+   AnymyHist->SetBinError(4,912.6302);
+   AnymyHist->SetEntries(166188);
+   AnymyHist->SetStats(0);
+   AnymyHist->SetFillColor(1);
+   AnymyHist->SetLineStyle(0);
+   AnymyHist->SetMarkerStyle(20);
+   AnymyHist->SetMarkerSize(0.4);
+   AnymyHist->GetXaxis()->SetBinLabel(1,"198941");
+   AnymyHist->GetXaxis()->SetBinLabel(2,"198954");
+   AnymyHist->GetXaxis()->SetBinLabel(3,"198955");
+   AnymyHist->GetXaxis()->SetBinLabel(4,"198969");
+   AnymyHist->GetXaxis()->SetBit(TAxis::kLabelsVert);
+   AnymyHist->GetXaxis()->SetNdivisions(505);
+   AnymyHist->GetXaxis()->SetLabelFont(42);
+   AnymyHist->GetXaxis()->SetLabelOffset(0.007);
+   AnymyHist->GetXaxis()->SetTitleOffset(1.1);
+   AnymyHist->GetXaxis()->SetTitleFont(42);
+   AnymyHist->GetYaxis()->SetTitle("dE/dx estimator");
+   AnymyHist->GetYaxis()->SetLabelFont(42);
+   AnymyHist->GetYaxis()->SetLabelOffset(0.007);
+   AnymyHist->GetYaxis()->SetLabelSize(0.05);
+   AnymyHist->GetYaxis()->SetTitleOffset(0.9);
+   AnymyHist->GetYaxis()->SetTitleFont(42);
+   AnymyHist->GetZaxis()->SetLabelFont(42);
+   AnymyHist->GetZaxis()->SetLabelOffset(0.007);
+   AnymyHist->GetZaxis()->SetLabelSize(0.05);
+   AnymyHist->GetZaxis()->SetTitleFont(42);
+   AnymyHist->Draw("E1");
+   
+   TPaveText *pt = new TPaveText(8.921939e-316,2.361729e-310,2.361728e-310,8.920438e-316,"brNDC");
+   pt->SetFillColor(0);
+   pt->SetTextAlign(12);
+   pt->SetTextFont(43);
+   pt->SetTextSize(21);
+   TText *text = pt->AddText(" 9");
+   pt->Draw();
+   c1->Modified();
+   c1->cd();
+   c1->SetSelected(c1);
+}

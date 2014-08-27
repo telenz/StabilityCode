@@ -1,0 +1,77 @@
+{
+//=========Macro generated from canvas: c1/c1
+//=========  (Thu Aug 21 18:06:24 2014) by ROOT version5.32/00
+   TCanvas *c1 = new TCanvas("c1", "c1",0,0,600,600);
+   gStyle->SetOptFit(1);
+   gStyle->SetOptTitle(0);
+   c1->Range(0,0,1,1);
+   c1->SetFillColor(0);
+   c1->SetBorderMode(0);
+   c1->SetBorderSize(2);
+   c1->SetGridx();
+   c1->SetTickx(1);
+   c1->SetTicky(1);
+   c1->SetLeftMargin(0.07);
+   c1->SetRightMargin(0.03);
+   c1->SetTopMargin(0.06);
+   c1->SetBottomMargin(0.15);
+   c1->SetFrameFillStyle(0);
+   c1->SetFrameBorderMode(0);
+   
+   TProfile *HSCPHLTTriggerHtDeDxFilterdEdxMPProf = new TProfile("HSCPHLTTriggerHtDeDxFilterdEdxMPProf","",6,0,6,"");
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->SetBinEntries(1,10);
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->SetBinEntries(3,5);
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->SetBinEntries(4,3);
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->SetBinEntries(5,1);
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->SetBinEntries(6,2);
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->SetBinContent(1,35.36793);
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->SetBinContent(3,15.77826);
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->SetBinContent(4,12.54864);
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->SetBinContent(5,3.227707);
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->SetBinContent(6,7.076037);
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->SetBinError(1,11.27618);
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->SetBinError(3,7.059551);
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->SetBinError(4,7.370027);
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->SetBinError(5,3.227707);
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->SetBinError(6,5.037724);
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->SetEntries(21);
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->SetStats(0);
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->SetFillColor(1);
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->SetLineStyle(0);
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->SetMarkerStyle(20);
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->SetMarkerSize(0.4);
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->GetXaxis()->SetBinLabel(1,"208307");
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->GetXaxis()->SetBinLabel(2,"208339");
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->GetXaxis()->SetBinLabel(3,"208341");
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->GetXaxis()->SetBinLabel(4,"208351");
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->GetXaxis()->SetBinLabel(5,"208353");
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->GetXaxis()->SetBinLabel(6,"208357");
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->GetXaxis()->SetBit(TAxis::kLabelsVert);
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->GetXaxis()->SetNdivisions(505);
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->GetXaxis()->SetLabelFont(42);
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->GetXaxis()->SetLabelOffset(0.007);
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->GetXaxis()->SetTitleOffset(1.1);
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->GetXaxis()->SetTitleFont(42);
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->GetYaxis()->SetTitle("dE/dx estimator");
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->GetYaxis()->SetLabelFont(42);
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->GetYaxis()->SetLabelOffset(0.007);
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->GetYaxis()->SetLabelSize(0.05);
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->GetYaxis()->SetTitleOffset(0.9);
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->GetYaxis()->SetTitleFont(42);
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->GetZaxis()->SetLabelFont(42);
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->GetZaxis()->SetLabelOffset(0.007);
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->GetZaxis()->SetLabelSize(0.05);
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->GetZaxis()->SetTitleFont(42);
+   HSCPHLTTriggerHtDeDxFilterdEdxMPProf->Draw("E1");
+   
+   TPaveText *pt = new TPaveText(5.297207e-316,7.291122e-304,2.347554e-310,5.293981e-316,"brNDC");
+   pt->SetFillColor(0);
+   pt->SetTextAlign(12);
+   pt->SetTextFont(43);
+   pt->SetTextSize(21);
+   TText *text = pt->AddText("g");
+   pt->Draw();
+   c1->Modified();
+   c1->cd();
+   c1->SetSelected(c1);
+}

@@ -1,0 +1,78 @@
+{
+//=========Macro generated from canvas: c1/c1,
+//=========  (Tue Mar 18 15:16:56 2014) by ROOT version5.32/00
+   TCanvas *c1 = new TCanvas("c1", "c1,",0,0,1200,600);
+   gStyle->SetOptFit(1);
+   gStyle->SetOptTitle(0);
+   c1->Range(-0.3111111,-5.518987,4.133333,4.607595);
+   c1->SetFillColor(0);
+   c1->SetBorderMode(0);
+   c1->SetBorderSize(2);
+   c1->SetTickx(1);
+   c1->SetTicky(1);
+   c1->SetLeftMargin(0.07);
+   c1->SetRightMargin(0.03);
+   c1->SetTopMargin(0.06);
+   c1->SetBottomMargin(0.15);
+   c1->SetFrameFillStyle(0);
+   c1->SetFrameBorderMode(0);
+   c1->SetFrameFillStyle(0);
+   c1->SetFrameBorderMode(0);
+   
+   TProfile *AnyVertexCSCProf = new TProfile("AnyVertexCSCProf","",4,0,4,"");
+   AnyVertexCSCProf->SetBinEntries(1,203);
+   AnyVertexCSCProf->SetBinEntries(2,1);
+   AnyVertexCSCProf->SetBinEntries(3,5611);
+   AnyVertexCSCProf->SetBinEntries(4,4874);
+   AnyVertexCSCProf->SetBinContent(1,-20.133);
+   AnyVertexCSCProf->SetBinContent(2,0.02465233);
+   AnyVertexCSCProf->SetBinContent(3,391.9442);
+   AnyVertexCSCProf->SetBinContent(4,-228.3315);
+   AnyVertexCSCProf->SetBinError(1,26.62573);
+   AnyVertexCSCProf->SetBinError(2,0.02465233);
+   AnyVertexCSCProf->SetBinError(3,144.4941);
+   AnyVertexCSCProf->SetBinError(4,156.3377);
+   AnyVertexCSCProf->SetMinimum(-4);
+   AnyVertexCSCProf->SetMaximum(4);
+   AnyVertexCSCProf->SetEntries(10689);
+   AnyVertexCSCProf->SetStats(0);
+   AnyVertexCSCProf->SetLineStyle(0);
+   AnyVertexCSCProf->SetLineWidth(2);
+   AnyVertexCSCProf->SetMarkerStyle(20);
+   AnyVertexCSCProf->SetMarkerSize(0.5);
+   AnyVertexCSCProf->GetXaxis()->SetBinLabel(1,"190645");
+   AnyVertexCSCProf->GetXaxis()->SetBinLabel(2,"");
+   AnyVertexCSCProf->GetXaxis()->SetBinLabel(3,"");
+   AnyVertexCSCProf->GetXaxis()->SetBinLabel(4,"190738");
+   AnyVertexCSCProf->GetXaxis()->SetBit(TAxis::kLabelsVert);
+   AnyVertexCSCProf->GetXaxis()->SetNdivisions(505);
+   AnyVertexCSCProf->GetXaxis()->SetLabelFont(42);
+   AnyVertexCSCProf->GetXaxis()->SetLabelOffset(0.007);
+   AnyVertexCSCProf->GetXaxis()->SetLabelSize(0.05);
+   AnyVertexCSCProf->GetXaxis()->SetTitleSize(0.05);
+   AnyVertexCSCProf->GetXaxis()->SetTitleOffset(1.1);
+   AnyVertexCSCProf->GetXaxis()->SetTitleFont(42);
+   AnyVertexCSCProf->GetYaxis()->SetTitle("Vertex Time CSC [ns]");
+   AnyVertexCSCProf->GetYaxis()->SetNdivisions(505);
+   AnyVertexCSCProf->GetYaxis()->SetLabelFont(42);
+   AnyVertexCSCProf->GetYaxis()->SetLabelOffset(0.007);
+   AnyVertexCSCProf->GetYaxis()->SetLabelSize(0.05);
+   AnyVertexCSCProf->GetYaxis()->SetTitleOffset(0.9);
+   AnyVertexCSCProf->GetYaxis()->SetTitleFont(42);
+   AnyVertexCSCProf->GetZaxis()->SetLabelFont(42);
+   AnyVertexCSCProf->GetZaxis()->SetLabelOffset(0.007);
+   AnyVertexCSCProf->GetZaxis()->SetLabelSize(0.05);
+   AnyVertexCSCProf->GetZaxis()->SetTitleFont(42);
+   AnyVertexCSCProf->Draw("E1");
+   
+   TPaveText *pt = new TPaveText(0.945,0.82,0.995,0.945,"brNDC");
+   pt->SetFillColor(0);
+   pt->SetTextAlign(12);
+   pt->SetTextFont(43);
+   pt->SetTextSize(21);
+   TText *text = pt->AddText("Ђявя");
+   pt->Draw();
+   c1->Modified();
+   c1->cd();
+   c1->SetSelected(c1);
+}

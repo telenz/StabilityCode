@@ -1,0 +1,72 @@
+{
+//=========Macro generated from canvas: c1/c1
+//=========  (Thu Aug 21 17:26:14 2014) by ROOT version5.32/00
+   TCanvas *c1 = new TCanvas("c1", "c1",0,0,600,600);
+   gStyle->SetOptFit(1);
+   gStyle->SetOptTitle(0);
+   c1->Range(0,0,1,1);
+   c1->SetFillColor(0);
+   c1->SetBorderMode(0);
+   c1->SetBorderSize(2);
+   c1->SetGridx();
+   c1->SetTickx(1);
+   c1->SetTicky(1);
+   c1->SetLeftMargin(0.07);
+   c1->SetRightMargin(0.03);
+   c1->SetTopMargin(0.06);
+   c1->SetBottomMargin(0.15);
+   c1->SetFrameFillStyle(0);
+   c1->SetFrameBorderMode(0);
+   
+   TProfile *AnydEdxMPProf = new TProfile("AnydEdxMPProf","",4,0,4,"");
+   AnydEdxMPProf->SetBinEntries(1,248);
+   AnydEdxMPProf->SetBinEntries(2,5);
+   AnydEdxMPProf->SetBinEntries(3,6839);
+   AnydEdxMPProf->SetBinEntries(4,5995);
+   AnydEdxMPProf->SetBinContent(1,849.6951);
+   AnydEdxMPProf->SetBinContent(2,16.3538);
+   AnydEdxMPProf->SetBinContent(3,23495.86);
+   AnydEdxMPProf->SetBinContent(4,20614.02);
+   AnydEdxMPProf->SetBinError(1,54.37022);
+   AnydEdxMPProf->SetBinError(2,7.340291);
+   AnydEdxMPProf->SetBinError(3,286.2376);
+   AnydEdxMPProf->SetBinError(4,268.3832);
+   AnydEdxMPProf->SetEntries(13087);
+   AnydEdxMPProf->SetStats(0);
+   AnydEdxMPProf->SetFillColor(1);
+   AnydEdxMPProf->SetLineStyle(0);
+   AnydEdxMPProf->SetMarkerStyle(20);
+   AnydEdxMPProf->SetMarkerSize(0.4);
+   AnydEdxMPProf->GetXaxis()->SetBinLabel(1,"190645");
+   AnydEdxMPProf->GetXaxis()->SetBinLabel(2,"190704");
+   AnydEdxMPProf->GetXaxis()->SetBinLabel(3,"190705");
+   AnydEdxMPProf->GetXaxis()->SetBinLabel(4,"190738");
+   AnydEdxMPProf->GetXaxis()->SetBit(TAxis::kLabelsVert);
+   AnydEdxMPProf->GetXaxis()->SetNdivisions(505);
+   AnydEdxMPProf->GetXaxis()->SetLabelFont(42);
+   AnydEdxMPProf->GetXaxis()->SetLabelOffset(0.007);
+   AnydEdxMPProf->GetXaxis()->SetTitleOffset(1.1);
+   AnydEdxMPProf->GetXaxis()->SetTitleFont(42);
+   AnydEdxMPProf->GetYaxis()->SetTitle("dE/dx estimator");
+   AnydEdxMPProf->GetYaxis()->SetLabelFont(42);
+   AnydEdxMPProf->GetYaxis()->SetLabelOffset(0.007);
+   AnydEdxMPProf->GetYaxis()->SetLabelSize(0.05);
+   AnydEdxMPProf->GetYaxis()->SetTitleOffset(0.9);
+   AnydEdxMPProf->GetYaxis()->SetTitleFont(42);
+   AnydEdxMPProf->GetZaxis()->SetLabelFont(42);
+   AnydEdxMPProf->GetZaxis()->SetLabelOffset(0.007);
+   AnydEdxMPProf->GetZaxis()->SetLabelSize(0.05);
+   AnydEdxMPProf->GetZaxis()->SetTitleFont(42);
+   AnydEdxMPProf->Draw("E1");
+   
+   TPaveText *pt = new TPaveText(6.699188e-316,2.335724e-310,9.516511e-316,8.717518e-316,"brNDC");
+   pt->SetFillColor(0);
+   pt->SetTextAlign(12);
+   pt->SetTextFont(43);
+   pt->SetTextSize(21);
+   TText *text = pt->AddText("P");
+   pt->Draw();
+   c1->Modified();
+   c1->cd();
+   c1->SetSelected(c1);
+}

@@ -1,0 +1,78 @@
+{
+//=========Macro generated from canvas: c1/c1,
+//=========  (Tue Mar 18 15:16:56 2014) by ROOT version5.32/00
+   TCanvas *c1 = new TCanvas("c1", "c1,",0,0,1200,600);
+   gStyle->SetOptFit(1);
+   gStyle->SetOptTitle(0);
+   c1->Range(-0.3111111,0.793038,4.133333,1.172785);
+   c1->SetFillColor(0);
+   c1->SetBorderMode(0);
+   c1->SetBorderSize(2);
+   c1->SetTickx(1);
+   c1->SetTicky(1);
+   c1->SetLeftMargin(0.07);
+   c1->SetRightMargin(0.03);
+   c1->SetTopMargin(0.06);
+   c1->SetBottomMargin(0.15);
+   c1->SetFrameFillStyle(0);
+   c1->SetFrameBorderMode(0);
+   c1->SetFrameFillStyle(0);
+   c1->SetFrameBorderMode(0);
+   
+   TProfile *AnyTOFProf = new TProfile("AnyTOFProf","",4,0,4,"");
+   AnyTOFProf->SetBinEntries(1,404);
+   AnyTOFProf->SetBinEntries(2,5);
+   AnyTOFProf->SetBinEntries(3,11092);
+   AnyTOFProf->SetBinEntries(4,9594);
+   AnyTOFProf->SetBinContent(1,401.3477);
+   AnyTOFProf->SetBinContent(2,4.897719);
+   AnyTOFProf->SetBinContent(3,11183.07);
+   AnyTOFProf->SetBinContent(4,9615.518);
+   AnyTOFProf->SetBinError(1,20.0067);
+   AnyTOFProf->SetBinError(2,2.191994);
+   AnyTOFProf->SetBinError(3,106.3825);
+   AnyTOFProf->SetBinError(4,98.38071);
+   AnyTOFProf->SetMinimum(0.85);
+   AnyTOFProf->SetMaximum(1.15);
+   AnyTOFProf->SetEntries(21095);
+   AnyTOFProf->SetStats(0);
+   AnyTOFProf->SetLineStyle(0);
+   AnyTOFProf->SetLineWidth(2);
+   AnyTOFProf->SetMarkerStyle(20);
+   AnyTOFProf->SetMarkerSize(0.5);
+   AnyTOFProf->GetXaxis()->SetBinLabel(1,"190645");
+   AnyTOFProf->GetXaxis()->SetBinLabel(2,"");
+   AnyTOFProf->GetXaxis()->SetBinLabel(3,"");
+   AnyTOFProf->GetXaxis()->SetBinLabel(4,"190738");
+   AnyTOFProf->GetXaxis()->SetBit(TAxis::kLabelsVert);
+   AnyTOFProf->GetXaxis()->SetNdivisions(505);
+   AnyTOFProf->GetXaxis()->SetLabelFont(42);
+   AnyTOFProf->GetXaxis()->SetLabelOffset(0.007);
+   AnyTOFProf->GetXaxis()->SetLabelSize(0.05);
+   AnyTOFProf->GetXaxis()->SetTitleSize(0.05);
+   AnyTOFProf->GetXaxis()->SetTitleOffset(1.1);
+   AnyTOFProf->GetXaxis()->SetTitleFont(42);
+   AnyTOFProf->GetYaxis()->SetTitle("1/#beta_{TOF}");
+   AnyTOFProf->GetYaxis()->SetNdivisions(505);
+   AnyTOFProf->GetYaxis()->SetLabelFont(42);
+   AnyTOFProf->GetYaxis()->SetLabelOffset(0.007);
+   AnyTOFProf->GetYaxis()->SetLabelSize(0.05);
+   AnyTOFProf->GetYaxis()->SetTitleOffset(0.9);
+   AnyTOFProf->GetYaxis()->SetTitleFont(42);
+   AnyTOFProf->GetZaxis()->SetLabelFont(42);
+   AnyTOFProf->GetZaxis()->SetLabelOffset(0.007);
+   AnyTOFProf->GetZaxis()->SetLabelSize(0.05);
+   AnyTOFProf->GetZaxis()->SetTitleFont(42);
+   AnyTOFProf->Draw("E1");
+   
+   TPaveText *pt = new TPaveText(0.945,0.82,0.995,0.945,"brNDC");
+   pt->SetFillColor(0);
+   pt->SetTextAlign(12);
+   pt->SetTextFont(43);
+   pt->SetTextSize(21);
+   TText *text = pt->AddText("Ђявя");
+   pt->Draw();
+   c1->Modified();
+   c1->cd();
+   c1->SetSelected(c1);
+}

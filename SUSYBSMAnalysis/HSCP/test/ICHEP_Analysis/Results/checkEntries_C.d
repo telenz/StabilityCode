@@ -1,0 +1,54 @@
+
+# DO NOT DELETE
+
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/TFile.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/TDirectoryFile.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/TDirectory.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/TNamed.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/TObject.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/Rtypes.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/RConfig.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/RVersion.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/DllImport.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/Rtypeinfo.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/snprintf.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/strlcpy.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/TGenericClassInfo.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/TSchemaHelper.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/TStorage.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/TVersionCheck.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/Riosfwd.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/TBuffer.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/TString.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/TMathBase.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/TList.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/TSeqCollection.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/TCollection.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/TIterator.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/TDatime.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/TUUID.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/TUrl.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/TMap.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/THashTable.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/TH2F.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/TH2.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/TH1.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/TAxis.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/TAttAxis.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/TArrayD.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/TArray.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/TAttLine.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/TAttFill.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/TAttMarker.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/TArrayC.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/TArrayS.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/TArrayI.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/TArrayF.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/Foption.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/TVectorFfwd.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/TVectorDfwd.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/TFitResultPtr.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/TMatrixFBasefwd.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/TMatrixDBasefwd.h
+./checkEntries_C.so: /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/cintdictversion.h /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/RVersion.h
+checkEntries_C__ROOTBUILDVERSION= 5.32/00

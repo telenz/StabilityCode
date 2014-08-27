@@ -1,0 +1,76 @@
+Info in <TUnixSystem::ACLiC>: creating shared library /afs/cern.ch/work/t/telenz/CMSSW_5_3_14_patch2/src/SUSYBSMAnalysis/HSCP/test/UsefulScripts/StabilityCheck/allRunsLanGausLastVersionChange/Run2012C_202017_203002/./StabilityCheck_C.so
+In file included from /afs/cern.ch/user/t/telenz/work/CMSSW_5_3_14_patch2/src/SUSYBSMAnalysis/HSCP/test/ICHEP_Analysis/Analysis_CommonFunction.h:4:0,
+                 from /afs/cern.ch/work/t/telenz/CMSSW_5_3_14_patch2/src/SUSYBSMAnalysis/HSCP/test/UsefulScripts/StabilityCheck/allRunsLanGausLastVersionChange/Run2012C_202017_203002/./StabilityCheck.C:67,
+                 from /afs/cern.ch/work/t/telenz/CMSSW_5_3_14_patch2/src/SUSYBSMAnalysis/HSCP/test/UsefulScripts/StabilityCheck/allRunsLanGausLastVersionChange/Run2012C_202017_203002/StabilityCheck_C_ACLiC_dict.h:34,
+                 from /afs/cern.ch/work/t/telenz/CMSSW_5_3_14_patch2/src/SUSYBSMAnalysis/HSCP/test/UsefulScripts/StabilityCheck/allRunsLanGausLastVersionChange/Run2012C_202017_203002/StabilityCheck_C_ACLiC_dict.cxx:17:
+/afs/cern.ch/user/t/telenz/work/CMSSW_5_3_14_patch2/src/SUSYBSMAnalysis/HSCP/test/ICHEP_Analysis/Analysis_PlotFunction.h: In function 'void DrawPreliminary(std::string, double, std::string, bool, double, double, double, double)':
+/afs/cern.ch/user/t/telenz/work/CMSSW_5_3_14_patch2/src/SUSYBSMAnalysis/HSCP/test/ICHEP_Analysis/Analysis_PlotFunction.h:77:25: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+/afs/cern.ch/user/t/telenz/work/CMSSW_5_3_14_patch2/src/SUSYBSMAnalysis/HSCP/test/ICHEP_Analysis/Analysis_PlotFunction.h: In function 'void DrawPreliminary(std::string, double, double, bool, double, double, double, double)':
+/afs/cern.ch/user/t/telenz/work/CMSSW_5_3_14_patch2/src/SUSYBSMAnalysis/HSCP/test/ICHEP_Analysis/Analysis_PlotFunction.h:132:25: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+In file included from /afs/cern.ch/work/t/telenz/CMSSW_5_3_14_patch2/src/SUSYBSMAnalysis/HSCP/test/UsefulScripts/StabilityCheck/allRunsLanGausLastVersionChange/Run2012C_202017_203002/./StabilityCheck.C:67:0,
+                 from /afs/cern.ch/work/t/telenz/CMSSW_5_3_14_patch2/src/SUSYBSMAnalysis/HSCP/test/UsefulScripts/StabilityCheck/allRunsLanGausLastVersionChange/Run2012C_202017_203002/StabilityCheck_C_ACLiC_dict.h:34,
+                 from /afs/cern.ch/work/t/telenz/CMSSW_5_3_14_patch2/src/SUSYBSMAnalysis/HSCP/test/UsefulScripts/StabilityCheck/allRunsLanGausLastVersionChange/Run2012C_202017_203002/StabilityCheck_C_ACLiC_dict.cxx:17:
+/afs/cern.ch/user/t/telenz/work/CMSSW_5_3_14_patch2/src/SUSYBSMAnalysis/HSCP/test/ICHEP_Analysis/Analysis_CommonFunction.h: In function 'reco::DeDxData* dEdxEstimOnTheFly(const fwlite::ChainEvent&, const TrackRef&, const reco::DeDxData*, double, bool, bool, int)':
+/afs/cern.ch/user/t/telenz/work/CMSSW_5_3_14_patch2/src/SUSYBSMAnalysis/HSCP/test/ICHEP_Analysis/Analysis_CommonFunction.h:701:15: warning: unused variable 'ind' [-Wunused-variable]
+/afs/cern.ch/user/t/telenz/work/CMSSW_5_3_14_patch2/src/SUSYBSMAnalysis/HSCP/test/ICHEP_Analysis/Analysis_CommonFunction.h:699:10: warning: unused variable 'step' [-Wunused-variable]
+In file included from /afs/cern.ch/work/t/telenz/CMSSW_5_3_14_patch2/src/SUSYBSMAnalysis/HSCP/test/UsefulScripts/StabilityCheck/allRunsLanGausLastVersionChange/Run2012C_202017_203002/StabilityCheck_C_ACLiC_dict.h:34:0,
+                 from /afs/cern.ch/work/t/telenz/CMSSW_5_3_14_patch2/src/SUSYBSMAnalysis/HSCP/test/UsefulScripts/StabilityCheck/allRunsLanGausLastVersionChange/Run2012C_202017_203002/StabilityCheck_C_ACLiC_dict.cxx:17:
+/afs/cern.ch/work/t/telenz/CMSSW_5_3_14_patch2/src/SUSYBSMAnalysis/HSCP/test/UsefulScripts/StabilityCheck/allRunsLanGausLastVersionChange/Run2012C_202017_203002/./StabilityCheck.C: In function 'void StabilityCheck(std::string)':
+/afs/cern.ch/work/t/telenz/CMSSW_5_3_14_patch2/src/SUSYBSMAnalysis/HSCP/test/UsefulScripts/StabilityCheck/allRunsLanGausLastVersionChange/Run2012C_202017_203002/./StabilityCheck.C:349:41: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+/afs/cern.ch/work/t/telenz/CMSSW_5_3_14_patch2/src/SUSYBSMAnalysis/HSCP/test/UsefulScripts/StabilityCheck/allRunsLanGausLastVersionChange/Run2012C_202017_203002/./StabilityCheck.C:441:40: warning: unused variable 'vertexColl' [-Wunused-variable]
+/afs/cern.ch/work/t/telenz/CMSSW_5_3_14_patch2/src/SUSYBSMAnalysis/HSCP/test/UsefulScripts/StabilityCheck/allRunsLanGausLastVersionChange/Run2012C_202017_203002/./StabilityCheck.C:515:13: warning: unused variable 'leg' [-Wunused-variable]
+mkdir: cannot create directory `pictures': File exists
+mkdir: cannot create directory `pictures/': File exists
+140822 16:56:14 001 Xrd: GoToAnotherServer: Going to: lxfsre54c03.cern.ch:1095
+140822 16:56:20 001 Xrd: GoToAnotherServer: Going to: lxfsre54c03.cern.ch:1095
+Info in <TCanvas::SaveSource>: C++ Macro file: pictures/Any_Profile_Im.C has been generated
+Info in <TCanvas::Print>: pdf file pictures/Any_Profile_Im.pdf has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: pictures/Any_Profile_ImS.C has been generated
+Info in <TCanvas::Print>: pdf file pictures/Any_Profile_ImS.pdf has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: pictures/Any_Profile_ImP.C has been generated
+Info in <TCanvas::Print>: pdf file pictures/Any_Profile_ImP.pdf has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: pictures/Any_Profile_ImP_myHist.C has been generated
+Info in <TCanvas::Print>: pdf file pictures/Any_Profile_ImP_myHist.pdf has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: pictures/HSCPHLTTriggerMuFilter_Profile_Im.C has been generated
+Info in <TCanvas::Print>: pdf file pictures/HSCPHLTTriggerMuFilter_Profile_Im.pdf has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: pictures/HSCPHLTTriggerMuFilter_Profile_ImS.C has been generated
+Info in <TCanvas::Print>: pdf file pictures/HSCPHLTTriggerMuFilter_Profile_ImS.pdf has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: pictures/HSCPHLTTriggerMuFilter_Profile_ImP.C has been generated
+Info in <TCanvas::Print>: pdf file pictures/HSCPHLTTriggerMuFilter_Profile_ImP.pdf has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: pictures/HSCPHLTTriggerMuFilter_Profile_ImP_myHist.C has been generated
+Info in <TCanvas::Print>: pdf file pictures/HSCPHLTTriggerMuFilter_Profile_ImP_myHist.pdf has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: pictures/HSCPHLTTriggerMetDeDxFilter_Profile_Im.C has been generated
+Info in <TCanvas::Print>: pdf file pictures/HSCPHLTTriggerMetDeDxFilter_Profile_Im.pdf has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: pictures/HSCPHLTTriggerMetDeDxFilter_Profile_ImS.C has been generated
+Info in <TCanvas::Print>: pdf file pictures/HSCPHLTTriggerMetDeDxFilter_Profile_ImS.pdf has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: pictures/HSCPHLTTriggerMetDeDxFilter_Profile_ImP.C has been generated
+Info in <TCanvas::Print>: pdf file pictures/HSCPHLTTriggerMetDeDxFilter_Profile_ImP.pdf has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: pictures/HSCPHLTTriggerMetDeDxFilter_Profile_ImP_myHist.C has been generated
+Info in <TCanvas::Print>: pdf file pictures/HSCPHLTTriggerMetDeDxFilter_Profile_ImP_myHist.pdf has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: pictures/HSCPHLTTriggerL2MuFilter_Profile_Im.C has been generated
+Info in <TCanvas::Print>: pdf file pictures/HSCPHLTTriggerL2MuFilter_Profile_Im.pdf has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: pictures/HSCPHLTTriggerL2MuFilter_Profile_ImS.C has been generated
+Info in <TCanvas::Print>: pdf file pictures/HSCPHLTTriggerL2MuFilter_Profile_ImS.pdf has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: pictures/HSCPHLTTriggerL2MuFilter_Profile_ImP.C has been generated
+Info in <TCanvas::Print>: pdf file pictures/HSCPHLTTriggerL2MuFilter_Profile_ImP.pdf has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: pictures/HSCPHLTTriggerL2MuFilter_Profile_ImP_myHist.C has been generated
+Info in <TCanvas::Print>: pdf file pictures/HSCPHLTTriggerL2MuFilter_Profile_ImP_myHist.pdf has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: pictures/HSCPHLTTriggerHtDeDxFilter_Profile_Im.C has been generated
+Info in <TCanvas::Print>: pdf file pictures/HSCPHLTTriggerHtDeDxFilter_Profile_Im.pdf has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: pictures/HSCPHLTTriggerHtDeDxFilter_Profile_ImS.C has been generated
+Info in <TCanvas::Print>: pdf file pictures/HSCPHLTTriggerHtDeDxFilter_Profile_ImS.pdf has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: pictures/HSCPHLTTriggerHtDeDxFilter_Profile_ImP.C has been generated
+Info in <TCanvas::Print>: pdf file pictures/HSCPHLTTriggerHtDeDxFilter_Profile_ImP.pdf has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: pictures/HSCPHLTTriggerHtDeDxFilter_Profile_ImP_myHist.C has been generated
+Info in <TCanvas::Print>: pdf file pictures/HSCPHLTTriggerHtDeDxFilter_Profile_ImP_myHist.pdf has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: pictures/HSCPHLTTriggerMuDeDxFilter_Profile_Im.C has been generated
+Info in <TCanvas::Print>: pdf file pictures/HSCPHLTTriggerMuDeDxFilter_Profile_Im.pdf has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: pictures/HSCPHLTTriggerMuDeDxFilter_Profile_ImS.C has been generated
+Info in <TCanvas::Print>: pdf file pictures/HSCPHLTTriggerMuDeDxFilter_Profile_ImS.pdf has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: pictures/HSCPHLTTriggerMuDeDxFilter_Profile_ImP.C has been generated
+Info in <TCanvas::Print>: pdf file pictures/HSCPHLTTriggerMuDeDxFilter_Profile_ImP.pdf has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: pictures/HSCPHLTTriggerMuDeDxFilter_Profile_ImP_myHist.C has been generated
+Info in <TCanvas::Print>: pdf file pictures/HSCPHLTTriggerMuDeDxFilter_Profile_ImP_myHist.pdf has been created
+Error: Symbol output is not defined in current scope  :0:
+Error: Failed to evaluate output.txt
+*** Interpreter error recovered ***

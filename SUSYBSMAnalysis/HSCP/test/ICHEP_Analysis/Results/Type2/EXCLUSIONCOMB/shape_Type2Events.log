@@ -1,0 +1,4 @@
+combine: /usr/lib64/libxml2.so.2: no version information available (required by /afs/cern.ch/cms/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/lib/libXMLParser.so)
+Invalid options: in option 'rMax': invalid option value
+Invalid options: in option 'rMax': invalid option value
+Use combine --help to get a list of all the allowed options

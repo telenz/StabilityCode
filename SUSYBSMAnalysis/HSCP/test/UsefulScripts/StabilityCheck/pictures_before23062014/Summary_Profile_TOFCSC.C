@@ -1,0 +1,78 @@
+{
+//=========Macro generated from canvas: c1/c1,
+//=========  (Tue Mar 18 15:16:56 2014) by ROOT version5.32/00
+   TCanvas *c1 = new TCanvas("c1", "c1,",0,0,1200,600);
+   gStyle->SetOptFit(1);
+   gStyle->SetOptTitle(0);
+   c1->Range(-0.3111111,0.793038,4.133333,1.172785);
+   c1->SetFillColor(0);
+   c1->SetBorderMode(0);
+   c1->SetBorderSize(2);
+   c1->SetTickx(1);
+   c1->SetTicky(1);
+   c1->SetLeftMargin(0.07);
+   c1->SetRightMargin(0.03);
+   c1->SetTopMargin(0.06);
+   c1->SetBottomMargin(0.15);
+   c1->SetFrameFillStyle(0);
+   c1->SetFrameBorderMode(0);
+   c1->SetFrameFillStyle(0);
+   c1->SetFrameBorderMode(0);
+   
+   TProfile *AnyTOFCSCProf = new TProfile("AnyTOFCSCProf","",4,0,4,"");
+   AnyTOFCSCProf->SetBinEntries(1,203);
+   AnyTOFCSCProf->SetBinEntries(2,1);
+   AnyTOFCSCProf->SetBinEntries(3,5611);
+   AnyTOFCSCProf->SetBinEntries(4,4874);
+   AnyTOFCSCProf->SetBinContent(1,202.6091);
+   AnyTOFCSCProf->SetBinContent(2,1.000165);
+   AnyTOFCSCProf->SetBinContent(3,5627.214);
+   AnyTOFCSCProf->SetBinContent(4,4870.191);
+   AnyTOFCSCProf->SetBinError(1,14.24629);
+   AnyTOFCSCProf->SetBinError(2,1.000165);
+   AnyTOFCSCProf->SetBinError(3,75.26803);
+   AnyTOFCSCProf->SetBinError(4,69.93905);
+   AnyTOFCSCProf->SetMinimum(0.85);
+   AnyTOFCSCProf->SetMaximum(1.15);
+   AnyTOFCSCProf->SetEntries(10689);
+   AnyTOFCSCProf->SetStats(0);
+   AnyTOFCSCProf->SetLineStyle(0);
+   AnyTOFCSCProf->SetLineWidth(2);
+   AnyTOFCSCProf->SetMarkerStyle(20);
+   AnyTOFCSCProf->SetMarkerSize(0.5);
+   AnyTOFCSCProf->GetXaxis()->SetBinLabel(1,"190645");
+   AnyTOFCSCProf->GetXaxis()->SetBinLabel(2,"");
+   AnyTOFCSCProf->GetXaxis()->SetBinLabel(3,"");
+   AnyTOFCSCProf->GetXaxis()->SetBinLabel(4,"190738");
+   AnyTOFCSCProf->GetXaxis()->SetBit(TAxis::kLabelsVert);
+   AnyTOFCSCProf->GetXaxis()->SetNdivisions(505);
+   AnyTOFCSCProf->GetXaxis()->SetLabelFont(42);
+   AnyTOFCSCProf->GetXaxis()->SetLabelOffset(0.007);
+   AnyTOFCSCProf->GetXaxis()->SetLabelSize(0.05);
+   AnyTOFCSCProf->GetXaxis()->SetTitleSize(0.05);
+   AnyTOFCSCProf->GetXaxis()->SetTitleOffset(1.1);
+   AnyTOFCSCProf->GetXaxis()->SetTitleFont(42);
+   AnyTOFCSCProf->GetYaxis()->SetTitle("1/#beta_{TOF_CSC}");
+   AnyTOFCSCProf->GetYaxis()->SetNdivisions(505);
+   AnyTOFCSCProf->GetYaxis()->SetLabelFont(42);
+   AnyTOFCSCProf->GetYaxis()->SetLabelOffset(0.007);
+   AnyTOFCSCProf->GetYaxis()->SetLabelSize(0.05);
+   AnyTOFCSCProf->GetYaxis()->SetTitleOffset(0.9);
+   AnyTOFCSCProf->GetYaxis()->SetTitleFont(42);
+   AnyTOFCSCProf->GetZaxis()->SetLabelFont(42);
+   AnyTOFCSCProf->GetZaxis()->SetLabelOffset(0.007);
+   AnyTOFCSCProf->GetZaxis()->SetLabelSize(0.05);
+   AnyTOFCSCProf->GetZaxis()->SetTitleFont(42);
+   AnyTOFCSCProf->Draw("E1");
+   
+   TPaveText *pt = new TPaveText(0.945,0.82,0.995,0.945,"brNDC");
+   pt->SetFillColor(0);
+   pt->SetTextAlign(12);
+   pt->SetTextFont(43);
+   pt->SetTextSize(21);
+   TText *text = pt->AddText("Ђявя");
+   pt->Draw();
+   c1->Modified();
+   c1->cd();
+   c1->SetSelected(c1);
+}

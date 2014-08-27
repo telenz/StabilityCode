@@ -1,0 +1,157 @@
+\documentclass{article}
+\begin{document}
+
+%                                             TkOnly
+\begin{table}
+   \centering
+      \begin{tabular}{|l|cccccc|}
+      \hline
+      \end{tabular}
+\end{table}
+
+%                                             TkMuon
+\begin{table}
+   \centering
+      \begin{tabular}{|l|cccccc|}
+      \hline
+      \end{tabular}
+\end{table}
+
+%                                             MuOnly
+\begin{table}
+   \centering
+      \begin{tabular}{|l|cccccc|}
+      \hline
+      \end{tabular}
+\end{table}
+
+%                                    multiple charge
+\begin{table}
+   \centering
+      \begin{tabular}{|l|cccccc|}
+      \hline
+      \end{tabular}
+\end{table}
+
+%                               fractionnally charge
+\begin{table}
+   \centering
+      \begin{tabular}{|l|cccccc|}
+      \hline
+      \end{tabular}
+\end{table}
+
+\end{document}
+
+%TKONLY
+Sample & Mass  & Cut   & \multicolumn{4}{c|}{$\sqrt{s}=7TeV$} & \multicolumn{4}{c|}{$\sqrt{s}=8TeV$} & \multicolumn{2}{c|}{$\sqrt{s}=7+8TeV$} \\\hline
+       & (GeV) & (GeV) & Eff & $\sigma_{TH}$ & $\sigma_{obs}$ & $\sigma_{pred}$ & Eff & $\sigma_{TH}$ & $\sigma_{obs}$ & $\sigma_{pred}$ & $\mu_{obs}$ & $\mu_{pred}$ \\\hline
+\hline
+
+
+%TKTOF
+Sample & Mass  & Cut   & \multicolumn{4}{c|}{$\sqrt{s}=7TeV$} & \multicolumn{4}{c|}{$\sqrt{s}=8TeV$} & \multicolumn{2}{c|}{$\sqrt{s}=7+8TeV$} \\\hline
+       & (GeV) & (GeV) & Eff & $\sigma_{TH}$ & $\sigma_{obs}$ & $\sigma_{pred}$ & Eff & $\sigma_{TH}$ & $\sigma_{obs}$ & $\sigma_{pred}$ & $\mu_{obs}$ & $\mu_{pred}$ \\\hline
+\hline
+
+
+%MUONLY
+Sample & Mass  & Cut   & \multicolumn{4}{c|}{$\sqrt{s}=7TeV$} & \multicolumn{4}{c|}{$\sqrt{s}=8TeV$} & \multicolumn{2}{c|}{$\sqrt{s}=7+8TeV$} \\\hline
+       & (GeV) & (GeV) & Eff & $\sigma_{TH}$ & $\sigma_{obs}$ & $\sigma_{pred}$ & Eff & $\sigma_{TH}$ & $\sigma_{obs}$ & $\sigma_{pred}$ & $\mu_{obs}$ & $\mu_{pred}$ \\\hline
+\hline
+
+
+%Q>1
+Sample & Mass  & Cut   & \multicolumn{4}{c|}{$\sqrt{s}=7TeV$} & \multicolumn{4}{c|}{$\sqrt{s}=8TeV$} & \multicolumn{2}{c|}{$\sqrt{s}=7+8TeV$} \\\hline
+       & (GeV) & (GeV) & Eff & $\sigma_{TH}$ & $\sigma_{obs}$ & $\sigma_{pred}$ & Eff & $\sigma_{TH}$ & $\sigma_{obs}$ & $\sigma_{pred}$ & $\mu_{obs}$ & $\mu_{pred}$ \\\hline
+\hline
+
+
+%Q<1
+Sample & Mass  & Cut   & \multicolumn{4}{c|}{$\sqrt{s}=7TeV$} & \multicolumn{4}{c|}{$\sqrt{s}=8TeV$} & \multicolumn{2}{c|}{$\sqrt{s}=7+8TeV$} \\\hline
+       & (GeV) & (GeV) & Eff & $\sigma_{TH}$ & $\sigma_{obs}$ & $\sigma_{pred}$ & Eff & $\sigma_{TH}$ & $\sigma_{obs}$ & $\sigma_{pred}$ & $\mu_{obs}$ & $\mu_{pred}$ \\\hline
+\hline
+
+
+
+
+
+
+
+
+%TKONLY
+Sample & Mass  & Cut   & \multicolumn{4}{c|}{$\sqrt{s}=7TeV$} & \multicolumn{4}{c|}{$\sqrt{s}=8TeV$} & \multicolumn{2}{c|}{$\sqrt{s}=7+8TeV$} \\\hline
+       & (GeV) & (GeV) & Eff & $\sigma_{TH}$ & $\sigma_{obs}$ & $\sigma_{pred}$ & Eff & $\sigma_{TH}$ & $\sigma_{obs}$ & $\sigma_{pred}$ & $\mu_{obs}$ & $\mu_{pred}$ \\\hline
+\hline
+
+
+%TKTOF
+Sample & Mass  & Cut   & \multicolumn{4}{c|}{$\sqrt{s}=7TeV$} & \multicolumn{4}{c|}{$\sqrt{s}=8TeV$} & \multicolumn{2}{c|}{$\sqrt{s}=7+8TeV$} \\\hline
+       & (GeV) & (GeV) & Eff & $\sigma_{TH}$ & $\sigma_{obs}$ & $\sigma_{pred}$ & Eff & $\sigma_{TH}$ & $\sigma_{obs}$ & $\sigma_{pred}$ & $\mu_{obs}$ & $\mu_{pred}$ \\\hline
+\hline
+
+
+%MUONLY
+Sample & Mass  & Cut   & \multicolumn{4}{c|}{$\sqrt{s}=7TeV$} & \multicolumn{4}{c|}{$\sqrt{s}=8TeV$} & \multicolumn{2}{c|}{$\sqrt{s}=7+8TeV$} \\\hline
+       & (GeV) & (GeV) & Eff & $\sigma_{TH}$ & $\sigma_{obs}$ & $\sigma_{pred}$ & Eff & $\sigma_{TH}$ & $\sigma_{obs}$ & $\sigma_{pred}$ & $\mu_{obs}$ & $\mu_{pred}$ \\\hline
+\hline
+
+
+%Q>1
+Sample & Mass  & Cut   & \multicolumn{4}{c|}{$\sqrt{s}=7TeV$} & \multicolumn{4}{c|}{$\sqrt{s}=8TeV$} & \multicolumn{2}{c|}{$\sqrt{s}=7+8TeV$} \\\hline
+       & (GeV) & (GeV) & Eff & $\sigma_{TH}$ & $\sigma_{obs}$ & $\sigma_{pred}$ & Eff & $\sigma_{TH}$ & $\sigma_{obs}$ & $\sigma_{pred}$ & $\mu_{obs}$ & $\mu_{pred}$ \\\hline
+\hline
+
+
+%Q<1
+Sample & Mass  & Cut   & \multicolumn{4}{c|}{$\sqrt{s}=7TeV$} & \multicolumn{4}{c|}{$\sqrt{s}=8TeV$} & \multicolumn{2}{c|}{$\sqrt{s}=7+8TeV$} \\\hline
+       & (GeV) & (GeV) & Eff & $\sigma_{TH}$ & $\sigma_{obs}$ & $\sigma_{pred}$ & Eff & $\sigma_{TH}$ & $\sigma_{obs}$ & $\sigma_{pred}$ & $\mu_{obs}$ & $\mu_{pred}$ \\\hline
+\hline
+
+
+
+
+       Tracker - Only 
+
+               Model    Eff   --> PScale |  DeDxScale | PUScale | TotalUncertainty     
+
+
+        Tracker + TOF 
+
+               Model   Eff   --> PScale |  DeDxScale | PUScale | TOFScale | TotalUncertainty     
+
+
+          Muon - Only 
+
+               Model   Eff   --> PScale |  DeDxScale | PUScale | TOFScale | TotalUncertainty     
+
+
+               |Q|<1e 
+
+               Model    Eff   --> PScale |  DeDxScale | PUScale | TotalUncertainty     
+
+
+               |Q|>1e 
+
+               Model    Eff   --> PScale |  DeDxScale | PUScale | TotalUncertainty     
+
+
+
+-----------------------
+ Mass range excluded   
+-------------------------
+-----------------------
+0% TK-ONLY       
+-------------------------
+-----------------------
+0% MU+TOF        
+-------------------------
+-----------------------
+0% MU+Only        
+-------------------------
+-----------------------
+0% Q>1            
+-------------------------
+-----------------------
+0% Q<1             
+-------------------------

@@ -1,0 +1,78 @@
+{
+//=========Macro generated from canvas: c1/c1,
+//=========  (Tue Mar 18 15:16:55 2014) by ROOT version5.32/00
+   TCanvas *c1 = new TCanvas("c1", "c1,",0,0,1200,600);
+   gStyle->SetOptFit(1);
+   gStyle->SetOptTitle(0);
+   c1->Range(-0.3111111,-28.48101,4.133333,161.3924);
+   c1->SetFillColor(0);
+   c1->SetBorderMode(0);
+   c1->SetBorderSize(2);
+   c1->SetTickx(1);
+   c1->SetTicky(1);
+   c1->SetLeftMargin(0.07);
+   c1->SetRightMargin(0.03);
+   c1->SetTopMargin(0.06);
+   c1->SetBottomMargin(0.15);
+   c1->SetFrameFillStyle(0);
+   c1->SetFrameBorderMode(0);
+   c1->SetFrameFillStyle(0);
+   c1->SetFrameBorderMode(0);
+   
+   TProfile *AnyPtProf = new TProfile("AnyPtProf","",4,0,4,"");
+   AnyPtProf->SetBinEntries(1,441);
+   AnyPtProf->SetBinEntries(2,6);
+   AnyPtProf->SetBinEntries(3,12134);
+   AnyPtProf->SetBinEntries(4,10505);
+   AnyPtProf->SetBinContent(1,26745.46);
+   AnyPtProf->SetBinContent(2,338.0635);
+   AnyPtProf->SetBinContent(3,729221.5);
+   AnyPtProf->SetBinContent(4,629318.9);
+   AnyPtProf->SetBinError(1,1350.409);
+   AnyPtProf->SetBinError(2,140.085);
+   AnyPtProf->SetBinError(3,7021.563);
+   AnyPtProf->SetBinError(4,6488.062);
+   AnyPtProf->SetMinimum(0);
+   AnyPtProf->SetMaximum(150);
+   AnyPtProf->SetEntries(23086);
+   AnyPtProf->SetStats(0);
+   AnyPtProf->SetLineStyle(0);
+   AnyPtProf->SetLineWidth(2);
+   AnyPtProf->SetMarkerStyle(20);
+   AnyPtProf->SetMarkerSize(0.5);
+   AnyPtProf->GetXaxis()->SetBinLabel(1,"190645");
+   AnyPtProf->GetXaxis()->SetBinLabel(2,"");
+   AnyPtProf->GetXaxis()->SetBinLabel(3,"");
+   AnyPtProf->GetXaxis()->SetBinLabel(4,"190738");
+   AnyPtProf->GetXaxis()->SetBit(TAxis::kLabelsVert);
+   AnyPtProf->GetXaxis()->SetNdivisions(505);
+   AnyPtProf->GetXaxis()->SetLabelFont(42);
+   AnyPtProf->GetXaxis()->SetLabelOffset(0.007);
+   AnyPtProf->GetXaxis()->SetLabelSize(0.05);
+   AnyPtProf->GetXaxis()->SetTitleSize(0.05);
+   AnyPtProf->GetXaxis()->SetTitleOffset(1.1);
+   AnyPtProf->GetXaxis()->SetTitleFont(42);
+   AnyPtProf->GetYaxis()->SetTitle("p_{T} (GeV/c)");
+   AnyPtProf->GetYaxis()->SetNdivisions(505);
+   AnyPtProf->GetYaxis()->SetLabelFont(42);
+   AnyPtProf->GetYaxis()->SetLabelOffset(0.007);
+   AnyPtProf->GetYaxis()->SetLabelSize(0.05);
+   AnyPtProf->GetYaxis()->SetTitleOffset(0.9);
+   AnyPtProf->GetYaxis()->SetTitleFont(42);
+   AnyPtProf->GetZaxis()->SetLabelFont(42);
+   AnyPtProf->GetZaxis()->SetLabelOffset(0.007);
+   AnyPtProf->GetZaxis()->SetLabelSize(0.05);
+   AnyPtProf->GetZaxis()->SetTitleFont(42);
+   AnyPtProf->Draw("E1");
+   
+   TPaveText *pt = new TPaveText(0.945,0.82,0.995,0.945,"brNDC");
+   pt->SetFillColor(0);
+   pt->SetTextAlign(12);
+   pt->SetTextFont(43);
+   pt->SetTextSize(21);
+   TText *text = pt->AddText("@g¤~+");
+   pt->Draw();
+   c1->Modified();
+   c1->cd();
+   c1->SetSelected(c1);
+}

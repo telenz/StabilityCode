@@ -1,0 +1,72 @@
+{
+//=========Macro generated from canvas: c1/c1,
+//=========  (Tue Mar 18 15:16:56 2014) by ROOT version5.32/00
+   TCanvas *c1 = new TCanvas("c1", "c1,",0,0,1200,600);
+   gStyle->SetOptFit(1);
+   gStyle->SetOptTitle(0);
+   c1->Range(-0.3111111,-0.009493671,4.133333,0.05379747);
+   c1->SetFillColor(0);
+   c1->SetBorderMode(0);
+   c1->SetBorderSize(2);
+   c1->SetTickx(1);
+   c1->SetTicky(1);
+   c1->SetLeftMargin(0.07);
+   c1->SetRightMargin(0.03);
+   c1->SetTopMargin(0.06);
+   c1->SetBottomMargin(0.15);
+   c1->SetFrameFillStyle(0);
+   c1->SetFrameBorderMode(0);
+   c1->SetFrameFillStyle(0);
+   c1->SetFrameBorderMode(0);
+   
+   TH1D *AnyHdEdx = new TH1D("AnyHdEdx","",4,0,4);
+   AnyHdEdx->SetBinContent(1,0.02494331);
+   AnyHdEdx->SetBinContent(3,0.01532883);
+   AnyHdEdx->SetBinContent(4,0.01646835);
+   AnyHdEdx->SetBinError(1,0.007613909);
+   AnyHdEdx->SetBinError(3,0.001132546);
+   AnyHdEdx->SetBinError(4,0.001262333);
+   AnyHdEdx->SetMinimum(0);
+   AnyHdEdx->SetMaximum(0.05);
+   AnyHdEdx->SetEntries(52.91046);
+   AnyHdEdx->SetStats(0);
+   AnyHdEdx->SetLineStyle(0);
+   AnyHdEdx->SetLineWidth(2);
+   AnyHdEdx->SetMarkerStyle(20);
+   AnyHdEdx->SetMarkerSize(0.5);
+   AnyHdEdx->GetXaxis()->SetBinLabel(1,"190645");
+   AnyHdEdx->GetXaxis()->SetBinLabel(2,"");
+   AnyHdEdx->GetXaxis()->SetBinLabel(3,"");
+   AnyHdEdx->GetXaxis()->SetBinLabel(4,"190738");
+   AnyHdEdx->GetXaxis()->SetBit(TAxis::kLabelsVert);
+   AnyHdEdx->GetXaxis()->SetNdivisions(505);
+   AnyHdEdx->GetXaxis()->SetLabelFont(42);
+   AnyHdEdx->GetXaxis()->SetLabelOffset(0.007);
+   AnyHdEdx->GetXaxis()->SetLabelSize(0.05);
+   AnyHdEdx->GetXaxis()->SetTitleSize(0.05);
+   AnyHdEdx->GetXaxis()->SetTitleOffset(1.1);
+   AnyHdEdx->GetXaxis()->SetTitleFont(42);
+   AnyHdEdx->GetYaxis()->SetTitle("I_{h} ROT");
+   AnyHdEdx->GetYaxis()->SetNdivisions(505);
+   AnyHdEdx->GetYaxis()->SetLabelFont(42);
+   AnyHdEdx->GetYaxis()->SetLabelOffset(0.007);
+   AnyHdEdx->GetYaxis()->SetLabelSize(0.05);
+   AnyHdEdx->GetYaxis()->SetTitleOffset(0.9);
+   AnyHdEdx->GetYaxis()->SetTitleFont(42);
+   AnyHdEdx->GetZaxis()->SetLabelFont(42);
+   AnyHdEdx->GetZaxis()->SetLabelOffset(0.007);
+   AnyHdEdx->GetZaxis()->SetLabelSize(0.05);
+   AnyHdEdx->GetZaxis()->SetTitleFont(42);
+   AnyHdEdx->Draw("E1");
+   
+   TPaveText *pt = new TPaveText(0.945,0.82,0.995,0.945,"brNDC");
+   pt->SetFillColor(0);
+   pt->SetTextAlign(12);
+   pt->SetTextFont(43);
+   pt->SetTextSize(21);
+   TText *text = pt->AddText("Ђявя");
+   pt->Draw();
+   c1->Modified();
+   c1->cd();
+   c1->SetSelected(c1);
+}
