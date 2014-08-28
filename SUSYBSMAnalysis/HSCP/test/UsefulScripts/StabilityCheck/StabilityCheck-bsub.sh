@@ -1,5 +1,5 @@
 #!/bin/bash/
-SCRIPTPATH=`pwd -P`
+
 echo ${SCRIPTPATH}
 ppp=${SCRIPTPATH}/${folder2}/${name}
 #ppp=/afs/cern.ch/user/t/telenz/work/CMSSW_5_3_14_patch2/src/SUSYBSMAnalysis/HSCP/test/UsefulScripts/StabilityCheck/${folder2}/${name}
