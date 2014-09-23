@@ -196,8 +196,12 @@ void StabilityCheck(string MODE="COMPILE")
    TProfile** dEdxMSProf = new TProfile*[triggers.size()];
    TProfile** dEdxMPProf = new TProfile*[triggers.size()];
    TH2D** myHistPDeDx_before = new TH2D*[triggers.size()];
-   TProfile** myHist = new TProfile*[triggers.size()];
+   TH1D** myHistPM_before = new TH1D*[triggers.size()];
+   TProfile** myHist  = new TProfile*[triggers.size()];
+   TProfile** myHistC = new TProfile*[triggers.size()];
+   TProfile** myHistF = new TProfile*[triggers.size()];
    TH2D** myHistPDeDx = new TH2D*[triggers.size()];
+   TH1D** myHistPM = new TH1D*[triggers.size()];
    TProfile** dEdxMSCProf = new TProfile*[triggers.size()];
    TProfile** dEdxMPCProf = new TProfile*[triggers.size()];
    TProfile** dEdxMSFProf = new TProfile*[triggers.size()];
@@ -229,8 +233,12 @@ void StabilityCheck(string MODE="COMPILE")
       dEdxMSProf[i] = new TProfile((triggers[i] + "dEdxMSProf").c_str(), "dEdxMSProf", 10000 ,0, 10000);
       dEdxMPProf[i] = new TProfile((triggers[i] + "dEdxMPProf").c_str(), "dEdxMPProf", 10000 ,0, 10000);
       myHist[i] = new TProfile((triggers[i] + "myHist").c_str(), "myHist", 10000 ,0, 10000);
+      myHistC[i] = new TProfile((triggers[i] + "myHistC").c_str(), "myHistC", 10000 ,0, 10000);
+      myHistF[i] = new TProfile((triggers[i] + "myHistF").c_str(), "myHistF", 10000 ,0, 10000);
       myHistPDeDx[i] = new TH2D((triggers[i] + "myHistPDeDx").c_str(), "myHistPDeDx", 1500 ,0, 1500,1000,0,50);
       myHistPDeDx_before[i] = new TH2D((triggers[i] + "myHistPDeDx_before").c_str(), "myHistPDeDx_before", 1500 ,0, 1500,1000,0,50);
+      myHistPM[i] = new TH1D((triggers[i] + "myHistPM").c_str(), "myHistPM", 10000,0,150);
+      myHistPM_before[i] = new TH1D((triggers[i] + "myHistPM_before").c_str(), "myHistPM_before", 10000,0,150);
       dEdxMSCProf[i] = new TProfile((triggers[i] + "dEdxMSCProf").c_str(), "dEdxMSCProf", 10000 ,0, 10000);
       dEdxMPCProf[i] = new TProfile((triggers[i] + "dEdxMPCProf").c_str(), "dEdxMPCProf", 10000 ,0, 10000);
       dEdxMSFProf[i] = new TProfile((triggers[i] + "dEdxMSFProf").c_str(), "dEdxMSFProf", 10000 ,0, 10000);
@@ -382,6 +390,8 @@ void StabilityCheck(string MODE="COMPILE")
 	   dEdxMSProf[i]->GetXaxis()->SetBinLabel(Bin, Label);
 	   dEdxMPProf[i]->GetXaxis()->SetBinLabel(Bin, Label);
 	   myHist[i]->GetXaxis()->SetBinLabel(Bin, Label);
+	   myHistC[i]->GetXaxis()->SetBinLabel(Bin, Label);
+	   myHistF[i]->GetXaxis()->SetBinLabel(Bin, Label);
 	   dEdxMSCProf[i]->GetXaxis()->SetBinLabel(Bin, Label);
 	   dEdxMPCProf[i]->GetXaxis()->SetBinLabel(Bin, Label);
 	   dEdxMSFProf[i]->GetXaxis()->SetBinLabel(Bin, Label);
@@ -493,26 +503,30 @@ void StabilityCheck(string MODE="COMPILE")
             if(PassPreselection(hscp, dedxSObj, dedxMSObj, tof, dttof, csctof, tree))  dEdxProf[i]->Fill(CurrentRunIndex, dedxSObj.dEdx());
             if(PassPreselection(hscp, dedxSObj, dedxMSObj, tof, dttof, csctof, tree))  dEdxMProf[i]->Fill(CurrentRunIndex, dedxMObj.dEdx());
 	    if(PassPreselection(hscp, dedxSObj, dedxMSObj, tof, dttof, csctof, tree))  dEdxMSProf[i]->Fill(CurrentRunIndex, dedxMSObj.dEdx());
-	    if(PassPreselection(hscp, dedxSObj, dedxMObj, tof, dttof, csctof, tree)){
+	    if(PassPreselection(hscp, dedxSObj, dedxMPObj, tof, dttof, csctof, tree)){
 	      dEdxMPProf[i]->Fill(CurrentRunIndex, dedxMPObj.dEdx());
 	      myHistPDeDx_before[i]->Fill(track->p(),dedxMPObj.dEdx());
+	      myHistPM_before[i]->Fill(sqrt(pow(track->p(),2)/pow(dEdxK_Data,2)*(dedxMPObj.dEdx()-dEdxC_Data)));
 	    }
 	    if(PassPreselection(hscp, dedxSObj, *myObj, tof, dttof, csctof, tree)){
 	      myHist[i]->Fill(CurrentRunIndex, myObj->dEdx());
 	      myHistPDeDx[i]->Fill(track->p(),myObj->dEdx());
+	      myHistPM[i]->Fill(sqrt(pow(track->p(),2)/pow(dEdxK_Data,2)*(myObj->dEdx()-dEdxC_Data)));
 	    }
 
-	    /*
+	    
             if(fabs(track->eta())<0.5){
-            dEdxMSCProf[i]->Fill(CurrentRunIndex, dedxMSObj.dEdx());
-            dEdxMPCProf[i]->Fill(CurrentRunIndex, dedxMPObj.dEdx());
+	      if(PassPreselection(hscp, dedxSObj, dedxMSObj, tof, dttof, csctof, tree)) dEdxMSCProf[i]->Fill(CurrentRunIndex, dedxMSObj.dEdx());
+	      if(PassPreselection(hscp, dedxSObj, dedxMPObj, tof, dttof, csctof, tree)) dEdxMPCProf[i]->Fill(CurrentRunIndex, dedxMPObj.dEdx());
+	      if(PassPreselection(hscp, dedxSObj, *myObj, tof, dttof, csctof, tree)) myHistC[i]->Fill(CurrentRunIndex, myObj->dEdx());
             }
             if(fabs(track->eta())>1.5){
-            dEdxMSFProf[i]->Fill(CurrentRunIndex, dedxMSObj.dEdx());
-            dEdxMPFProf[i]->Fill(CurrentRunIndex, dedxMPObj.dEdx());
+	      if(PassPreselection(hscp, dedxSObj, dedxMSObj, tof, dttof, csctof, tree)) dEdxMSFProf[i]->Fill(CurrentRunIndex, dedxMSObj.dEdx());
+	      if(PassPreselection(hscp, dedxSObj, dedxMPObj, tof, dttof, csctof, tree)) dEdxMPFProf[i]->Fill(CurrentRunIndex, dedxMPObj.dEdx());
+	      if(PassPreselection(hscp, dedxSObj, *myObj, tof, dttof, csctof, tree)) myHistF[i]->Fill(CurrentRunIndex, myObj->dEdx());
             }
-            PtProf[i]->Fill(CurrentRunIndex, hscp.trackRef()->pt());
-	    */
+            //PtProf[i]->Fill(CurrentRunIndex, hscp.trackRef()->pt());
+	    
          }
 
       }
@@ -782,6 +796,51 @@ void StabilityCheck(string MODE="COMPILE")
    SaveCanvas(c1,string("pictures/") + triggers[i],"Profile_ImP_myHist");
    delete c1;
 
+   c1 = new TCanvas("c1","c1",600,600);
+   myHistC[i]->LabelsDeflate("X");
+   myHistC[i]->LabelsOption("av","X");
+   myHistC[i]->GetXaxis()->SetNdivisions(505);
+   myHistC[i]->SetTitle("");
+   myHistC[i]->SetStats(kFALSE);
+   myHistC[i]->GetXaxis()->SetTitle("");
+   myHistC[i]->GetYaxis()->SetTitle("dE/dx estimator");
+   myHistC[i]->GetYaxis()->SetTitleOffset(0.9);
+   myHistC[i]->GetXaxis()->SetLabelSize(0.04);
+   myHistC[i]->SetLineColor(Color[0]);
+   myHistC[i]->SetFillColor(Color[0]);
+   myHistC[i]->SetMarkerSize(0.4);
+   myHistC[i]->SetMarkerStyle(Marker[0]);
+   myHistC[i]->SetMarkerColor(Color[0]);
+   myHistC[i]->Draw("E1");
+   c1->Modified();
+   c1->SetGridx(true);
+   DrawPreliminary(SQRTS, IntegratedLuminosity);
+   SaveCanvas(c1,string("pictures/") + triggers[i],"Profile_ImP_myHistC");
+   delete c1;
+
+   c1 = new TCanvas("c1","c1",600,600);
+   myHistF[i]->LabelsDeflate("X");
+   myHistF[i]->LabelsOption("av","X");
+   myHistF[i]->GetXaxis()->SetNdivisions(505);
+   myHistF[i]->SetTitle("");
+   myHistF[i]->SetStats(kFALSE);
+   myHistF[i]->GetXaxis()->SetTitle("");
+   myHistF[i]->GetYaxis()->SetTitle("dE/dx estimator");
+   myHistF[i]->GetYaxis()->SetTitleOffset(0.9);
+   myHistF[i]->GetXaxis()->SetLabelSize(0.04);
+   myHistF[i]->SetLineColor(Color[0]);
+   myHistF[i]->SetFillColor(Color[0]);
+   myHistF[i]->SetMarkerSize(0.4);
+   myHistF[i]->SetMarkerStyle(Marker[0]);
+   myHistF[i]->SetMarkerColor(Color[0]);
+   myHistF[i]->Draw("E1");
+   c1->Modified();
+   c1->SetGridx(true);
+   DrawPreliminary(SQRTS, IntegratedLuminosity);
+   SaveCanvas(c1,string("pictures/") + triggers[i],"Profile_ImP_myHistF");
+   delete c1;
+
+
    // Save landau functions
    TFile f("pictures/landau.root","recreate");
    landauAB->Write();
@@ -799,7 +858,12 @@ void StabilityCheck(string MODE="COMPILE")
    landauC2Module->Write();
    landauD1Module->Write();
    landauD2Module->Write();
+   myHistPDeDx[i]->Write();
+   myHistPDeDx_before[i]->Write();
+   myHistPM[i]->Write();
+   myHistPM_before[i]->Write();
       
+   
    nHitsDetId->Write();
    f.Close();	      
 
